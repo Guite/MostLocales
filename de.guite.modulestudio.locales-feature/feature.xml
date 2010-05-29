@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="de.guite.modulestudio.locales.feature"
+      label="%featureName"
+      version="1.0.0.qualifier"
+      provider-name="%providerName"
+      image="most_update_120.jpg"
+      plugin="de.guite.modulestudio.branding.ce">
+
+   <description url="%descriptionUrl">
+      %description
+   </description>
+
+   <copyright url="%copyrightUrl">
+      %copyright
+   </copyright>
+
+   <license url="%licenseUrl">
+      %license
+   </license>
+
+   <url>
+      <update label="%mostUpdateSiteName" url="http://modulestudio.de/updates/"/>
+      <discovery label="%mostUpdateSiteName" url="http://modulestudio.de/updates/"/>
+   </url>
+
+   <requires>
+      <import plugin="de.guite.modulestudio.help" version="1.0.0.qualifier" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="de.guite.modulestudio.locales"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         fragment="true"
+         unpack="false"/>
+
+</feature>
