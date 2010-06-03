@@ -4,8 +4,8 @@
       label="%featureName"
       version="1.0.0.qualifier"
       provider-name="%providerName"
-      image="most_update_120.jpg"
-      plugin="de.guite.modulestudio.branding.ce">
+      plugin="de.guite.modulestudio.branding.ce"
+      image="most_update_120.jpg">
 
    <description url="%descriptionUrl">
       %description
@@ -23,10 +23,6 @@
       <update label="%mostUpdateSiteName" url="http://modulestudio.de/updates/"/>
       <discovery label="%mostUpdateSiteName" url="http://modulestudio.de/updates/"/>
    </url>
-
-   <requires>
-      <import plugin="de.guite.modulestudio.help" version="1.0.0.qualifier" match="greaterOrEqual"/>
-   </requires>
 
    <plugin
          id="de.guite.modulestudio.locales"
