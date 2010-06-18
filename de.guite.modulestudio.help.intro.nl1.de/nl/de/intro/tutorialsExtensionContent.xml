@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<introContent>
+  	<extensionContent id="deguitemodulestudio-introExtension" style="css/style.css" name="Tutorials Extension" path="tutorials/@">
+		<group style-id="content-group" id="deguitemodulestudio-introLink-group">
+       		<text>Wir haben ein Cheatsheet-Tutorial angefangen (siehe Hilfe > Cheatsheets...), das jedoch noch nicht fertig ist.</text>
+       		<text>Es gibt ein kleines Tutorial im Web, das unter http://modulestudio.de/MDSD/download.html zu finden ist.</text>
+       		<text>Ebenfalls lesenswert ist die Seite zu ModuleStudio im Zikula-Handbuch der deutschsprachigen Community, unter http://code.zikula.org/community-german/wiki/ModuleStudio zu finden.</text>
+       		<text>Bitte benutzt das Support-Forum auf modulestudio.de falls weitere Fragen auftauchen.</text>
+       	</group>
+  	</extensionContent>
+</introContent>

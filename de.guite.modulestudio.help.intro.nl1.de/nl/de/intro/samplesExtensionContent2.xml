@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<introContent>
+  	<extensionContent id="deguitemodulestudio-introExtension" style="css/style.css" name="Beispiele2 Extension" path="samples/@">
+		<group style-id="content-group" id="deguitemodulestudio-introLink-group">
+       		<text>Man kann sie auf der Projekt-Homepage herunterladen.</text>
+       	</group>
+  	</extensionContent>
+</introContent>

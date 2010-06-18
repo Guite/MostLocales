@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.toc"?>
+<toc label="ModuleStudio" topic="html/index.html">
+<!-- toc-Attribut extradir: relativer Pfad eines Verzeichnisses, in dem Hilfeseiten abgelegt sind,
+	 die nicht im TOC erscheinen, aber trotzdem indiziert werden sollen. -->
+    <topic label="Übersicht" href="html/Overview.html" />
+    <topic label="Komponenten" href="html/Components.html">
+    	<topic label="Meta-Modell" href="html/Metamodel.html" />
+    	<topic label="Editoren" href="html/Editors.html" />
+    	<topic label="Generator" href="html/Generator.html" />
+    </topic>
+    <topic label="Erweiterungen" href="html/AddOns.html" />
+<!--
+	dynamical topic elements with filters:
+		- every condition consists of a name, an operator (= or !=) and a value:
+             <topic label="Informations for Windows users"
+                    href="html/windowsUsers.html"
+                    filter="os=win32" />
+        - predefined filter names:
+             os      (win32, linux, macosx, aix, solaris, hpux, qnx)
+             ws      (win32, motif, gtk, photon, carbon)
+             arch    (x86, x86_64, ia64, ia64_32, ppc, PA_RISC, sparc)
+
+-->
+</toc>

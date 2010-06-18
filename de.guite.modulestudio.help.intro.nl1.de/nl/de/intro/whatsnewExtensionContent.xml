@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<introContent>
+  	<extensionContent id="deguitemodulestudio-introExtension" style="css/style.css" name="Was gibts Neues Extension" path="whatsnew/@">
+  		<group style-id="content-group" id="deguitemodulestudio-introLink-group050">
+            <text>Aktualisiert auf Eclipse 3.6 Helios und entsprechende Framework-Versionen</text>
+            <text>Einführung des neuen Brandings (neues Logo, Splash-Screen und About-Screen)</text>
+            <text>Umfangreiches Continuous Integration Server Setup zur automatischen Ausführung verschiedener Builds und Tests</text>
+            <text>Unterstützung für verschiedene Generatoren, im Moment gibt es vier Cartridges: zClassic, zOO, documentation, reporting</text>
+            <text>zClassic-Generator aktualisiert für Zikula 1.3.0</text>
+            <text>Anzeige von RSS-Feeds auf der Willkommensseite Web-Ressourcen integriert</text>
+            <text>Metamodell-Packages korrigiert. Dies war ein größeres Refactoring auf Grund eines Problems in früheren Versionen.</text>
+            <text>Unterstützung für eine Versionierung der Metamodelle und automatische Migration der abhängigen Modelle.</text>
+            <text>Neue Felder zur Definition des Application Types und der Lizenz einer Anwendung hinzugefügt.</text>
+            <text>Verschiedene kleinere Bugfixes und Neuerungen.</text>
+  		</group>
+  	</extensionContent>
+</introContent>
