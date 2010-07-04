@@ -67,13 +67,6 @@
          fragment="true"/>
 
    <plugin
-         id="de.guite.modulestudio.gmf.nl1.de"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         fragment="true"/>
-
-   <plugin
          id="de.guite.modulestudio.help.cheatsheets.nl1.de"
          download-size="0"
          install-size="0"
