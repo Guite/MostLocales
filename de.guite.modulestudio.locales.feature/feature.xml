@@ -18,12 +18,12 @@
    <license url="%licenseUrl">
       %license
    </license>
-
+<!--
    <url>
       <update label="%mostUpdateSiteName" url="http://modulestudio.de/updates/"/>
       <discovery label="%mostUpdateSiteName" url="http://modulestudio.de/updates/"/>
    </url>
-
+-->
    <plugin
          id="de.guite.modulestudio.branding.nl1.de"
          download-size="0"
