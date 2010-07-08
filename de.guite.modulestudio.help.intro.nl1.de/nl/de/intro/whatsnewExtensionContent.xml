@@ -5,6 +5,7 @@
             <text>Aktualisiert auf Eclipse 3.6 Helios und entsprechende Framework-Versionen</text>
             <text>Einführung des neuen Brandings (neues Logo, Splash-Screen und About-Screen)</text>
             <text>Umfangreiches Continuous Integration Server Setup zur automatischen Ausführung verschiedener Builds und Tests</text>
+            <text>Remote-Installer Komponente für Repository-basiertes Deployment und native Betriebssystem-Integration</text>
             <text>Unterstützung für verschiedene Generatoren, im Moment gibt es vier Cartridges: zClassic, zOO, documentation, reporting</text>
             <text>zClassic-Generator aktualisiert für Zikula 1.3.0</text>
             <text>Anzeige von RSS-Feeds auf der Willkommensseite Web-Ressourcen integriert</text>
