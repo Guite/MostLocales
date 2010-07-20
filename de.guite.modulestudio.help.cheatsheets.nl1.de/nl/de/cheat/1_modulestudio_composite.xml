@@ -45,54 +45,44 @@
             <param name="path" value="4_editorstart.xml">
             </param>
          </task>
-         <task kind="cheatsheet" name="Persistenz" skip="false">
+         <task kind="cheatsheet" name="Model-Editor" skip="false">
             <intro>
                <b>Einführung</b>
             </intro>
             <onCompletion>
                <b>Zusammenfassung</b>
             </onCompletion>
-            <param name="path" value="5_editorpers.xml">
+            <param name="path" value="5_editormodel.xml">
             </param>
          </task>
-         <task kind="cheatsheet" name="Prozesse" skip="false">
+         <task kind="cheatsheet" name="Controller-Editor" skip="false">
             <intro>
                <b>Einführung</b>
             </intro>
             <onCompletion>
                <b>Zusammenfassung</b>
             </onCompletion>
-            <param name="path" value="6_editorproc.xml">
+            <param name="path" value="6_editorcontroller.xml">
             </param>
          </task>
-         <task kind="cheatsheet" name="Berechtigungen" skip="true">
+         <task kind="cheatsheet" name="Berechtigungs-Editor" skip="true">
             <intro>
                <b>Einführung</b>
             </intro>
             <onCompletion>
                <b>Zusammenfassung</b>
             </onCompletion>
-            <param name="path" value="7_editorperm.xml">
+            <param name="path" value="7_editorpermission.xml">
             </param>
          </task>
-         <task kind="cheatsheet" name="Präsentation" skip="true">
+         <task kind="cheatsheet" name="View-Editor" skip="true">
             <intro>
                <b>Einführung</b>
             </intro>
             <onCompletion>
                <b>Zusammenfassung</b>
             </onCompletion>
-            <param name="path" value="8_editorpres.xml">
-            </param>
-         </task>
-         <task kind="cheatsheet" name="Verhalten" skip="true">
-            <intro>
-               <b>Einführung</b>
-            </intro>
-            <onCompletion>
-               <b>Zusammenfassung</b>
-            </onCompletion>
-            <param name="path" value="9_editorbehv.xml">
+            <param name="path" value="8_editorview.xml">
             </param>
          </task>
       </taskGroup>
@@ -118,7 +108,7 @@
             <onCompletion>
                <b>Zusammenfassung</b>
             </onCompletion>
-            <param name="path" value="10_generator.xml">
+            <param name="path" value="9_generator.xml">
             </param>
          </task>
       </taskGroup>

@@ -6,12 +6,16 @@
             <text>Einführung des neuen Brandings (neues Logo, Splash-Screen und About-Screen)</text>
             <text>Umfangreiches Continuous Integration Server Setup zur automatischen Ausführung verschiedener Builds und Tests</text>
             <text>Remote-Installer Komponente für Repository-basiertes Deployment und native Betriebssystem-Integration</text>
-            <text>Unterstützung für verschiedene Generatoren, im Moment gibt es vier Cartridges: zClassic, zOO, documentation, reporting</text>
-            <text>zClassic-Generator aktualisiert für Zikula 1.3.0</text>
             <text>Anzeige von RSS-Feeds auf der Willkommensseite Web-Ressourcen integriert</text>
-            <text>Metamodell-Packages korrigiert. Dies war ein größeres Refactoring auf Grund eines Problems in früheren Versionen.</text>
+            <text>Metamodell-Packages korrigiert. Dies war ein größeres Refactoring auf Grund eines Problems in früheren Versionen. Leider hat dies die Abwärtskompatibilität zerstört, aber zum Glück wird das nicht noch einmal passieren, da in künftigen Versionen jegliche Migrationsarbeiten automatisch mit dem neuen Versionssystem geschehen (siehe nächsten Punkt).</text>
             <text>Unterstützung für eine Versionierung der Metamodelle und automatische Migration der abhängigen Modelle.</text>
             <text>Neue Felder zur Definition des Application Types und der Lizenz einer Anwendung hinzugefügt.</text>
+            <text>Persistenz- und Verhaltensschichten in eine gemeinsame Datenschicht verschmolzen und einige Redundanzen entfernt.</text>
+            <text>Terminologie geändert zu bekannten MVC-Begriffen.</text>
+            <text>Volle Unterstützung für alle relevanten Funktionalitäten von Doctrine in der Datenschicht vorbereitet (Feld- und Beziehungstypen, Validatoren, Behaviors und Event-Listener).</text>
+            <text>Automatische Erstellung der initialen Container im Diagramm des Haupteditors hinzugefügt.</text>
+            <text>Unterstützung für verschiedene Generatoren, im Moment gibt es vier Cartridges: zClassic, zOO, documentation, reporting.</text>
+            <text>zClassic-Generator aktualisiert für Zikula 1.3.0 (Unterstützung für Doctrine wurde aus Stabilitätsgründen geschoben).</text>
             <text>Verschiedene kleinere Bugfixes und Neuerungen.</text>
   		</group>
   	</extensionContent>
