@@ -23,9 +23,9 @@
       <import plugin="de.guite.modulestudio.branding" version="1.0.0" match="equivalent"/>
       <import plugin="de.guite.modulestudio.examples" version="1.0.0" match="equivalent"/>
       <import plugin="de.guite.modulestudio.gmf.cust" version="1.0.0" match="equivalent"/>
-      <import plugin="de.guite.modulestudio.gmf.msmain" version="1.0.0" match="equivalent"/>
-      <import plugin="de.guite.modulestudio.gmf.mspers" version="1.0.0" match="equivalent"/>
-      <import plugin="de.guite.modulestudio.gmf.msproc" version="1.0.0" match="equivalent"/>
+      <import plugin="de.guite.modulestudio.gmf.main" version="1.0.0" match="equivalent"/>
+      <import plugin="de.guite.modulestudio.gmf.model" version="1.0.0" match="equivalent"/>
+      <import plugin="de.guite.modulestudio.gmf.controller" version="1.0.0" match="equivalent"/>
       <import plugin="de.guite.modulestudio.help.cheatsheets" version="1.0.0" match="equivalent"/>
       <import plugin="de.guite.modulestudio.help.intro" version="1.0.0" match="equivalent"/>
       <import plugin="de.guite.modulestudio.help" version="1.0.0" match="equivalent"/>
@@ -58,21 +58,21 @@
          fragment="true"/>
 
    <plugin
-         id="de.guite.modulestudio.gmf.msmain.nl1.de"
+         id="de.guite.modulestudio.gmf.main.nl1.de"
          download-size="0"
          install-size="0"
          version="0.0.0"
          fragment="true"/>
 
    <plugin
-         id="de.guite.modulestudio.gmf.mspers.nl1.de"
+         id="de.guite.modulestudio.gmf.model.nl1.de"
          download-size="0"
          install-size="0"
          version="0.0.0"
          fragment="true"/>
 
    <plugin
-         id="de.guite.modulestudio.gmf.msproc.nl1.de"
+         id="de.guite.modulestudio.gmf.controller.nl1.de"
          download-size="0"
          install-size="0"
          version="0.0.0"
