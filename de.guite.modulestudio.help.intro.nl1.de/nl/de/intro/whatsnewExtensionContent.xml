@@ -16,6 +16,7 @@
             <text>Automatische Erstellung der initialen Container im Diagramm des Haupteditors hinzugefügt.</text>
             <text>Unterstützung für verschiedene Generatoren, im Moment gibt es vier Cartridges: zClassic, zOO, documentation, reporting.</text>
             <text>zClassic-Generator aktualisiert für Zikula 1.3.0 (Unterstützung für Doctrine wurde aus Stabilitätsgründen geschoben).</text>
+            <text>Generator-Erweiterungen: Profiler, Precompiler, Php Beautifier (Quelltext-Formatierer)</text>
             <text>Verschiedene kleinere Bugfixes und Neuerungen.</text>
   		</group>
   	</extensionContent>
