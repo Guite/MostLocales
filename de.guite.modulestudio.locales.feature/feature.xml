@@ -21,7 +21,6 @@
 
    <requires>
       <import plugin="de.guite.modulestudio.branding" version="1.0.0" match="equivalent"/>
-      <import plugin="de.guite.modulestudio.examples" version="1.0.0" match="equivalent"/>
       <import plugin="de.guite.modulestudio.gmf.cust" version="1.0.0" match="equivalent"/>
       <import plugin="de.guite.modulestudio.gmf.main" version="1.0.0" match="equivalent"/>
       <import plugin="de.guite.modulestudio.gmf.model" version="1.0.0" match="equivalent"/>
@@ -38,13 +37,6 @@
 
    <plugin
          id="de.guite.modulestudio.branding.nl1.de"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         fragment="true"/>
-
-   <plugin
-         id="de.guite.modulestudio.examples.nl1.de"
          download-size="0"
          install-size="0"
          version="0.0.0"
