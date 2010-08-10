@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <introContent>
-  	<extensionContent id="deguitemodulestudio-introExtension" style="css/style.css" name="Was gibts Neues Extension" path="whatsnew/@">
+  	<extensionContent id="whatsnew-top-left" style="css/style.css" name="Was gibts Neues Extension" path="whatsnew/@">
   		<group style-id="content-group" id="deguitemodulestudio-introLink-group050">
             <text>Aktualisiert auf Eclipse 3.6 Helios und entsprechende Framework-Versionen</text>
             <text>Einführung des neuen Brandings (neues Logo, Splash-Screen und About-Screen)</text>
@@ -19,5 +19,15 @@
             <text>Generator-Erweiterungen: Profiler, Precompiler, Php Beautifier (Quelltext-Formatierer)</text>
             <text>Verschiedene kleinere Bugfixes und Neuerungen.</text>
   		</group>
+    </extensionContent>
+    <extensionContent id="whatsnew-top-right" style="css/style.css" name="Was gibts Neues Extension" path="whatsnew/@">
+        <group style-id="content-group" id="news-web" label="MOST News">
+            <contentProvider id="url=http://modulestudio.de/de/news.rss##welcome_items=20##no_news_url=http://modulestudio.de/de/news/##no_news_text=MOST News Artikel Feed" pluginId="org.eclipse.ui.intro" class="org.eclipse.ui.intro.contentproviders.EclipseRSSViewer">
+            </contentProvider>
+        </group>
   	</extensionContent>
+    <extensionContent id="whatsnew-bottom-left" style="css/style.css" name="Was gibts Neues Extension" path="whatsnew/@">
+    </extensionContent>
+    <extensionContent id="whatsnew-bottom-right" style="css/style.css" name="Was gibts Neues Extension" path="whatsnew/@">
+    </extensionContent>
 </introContent>
