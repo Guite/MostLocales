@@ -10,7 +10,7 @@
             </link>
         </group>
         <group style-id="content-group" id="webresources-community-most" label="MOST Community">
-            <contentProvider id="url=http://modulestudio.de/de/backforum.php##welcome_items=10##no_news_url=http://modulestudio.de/de/Forum/##no_news_text=MOST Community Forum Feed" pluginId="org.eclipse.ui.intro" class="org.eclipse.ui.intro.contentproviders.EclipseRSSViewer">
+            <contentProvider id="url=http://modulestudio.de/backforum.php##welcome_items=10##no_news_url=http://modulestudio.de/de/Forum/##no_news_text=MOST Community Forum Feed" pluginId="org.eclipse.ui.intro" class="org.eclipse.ui.intro.contentproviders.EclipseRSSViewer">
             </contentProvider>
       	</group>
   	</extensionContent>
