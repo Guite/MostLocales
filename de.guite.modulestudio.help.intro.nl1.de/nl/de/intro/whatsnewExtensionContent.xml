@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <introContent>
   	<extensionContent id="whatsnew-top-left" style="css/style.css" name="Was gibts Neues Extension" path="whatsnew/@">
+        <group style-id="content-group" id="deguitemodulestudio-introLink-group052">
+            <text>Aktualisiert auf Eclipse 3.6.1</text>
+        </group>
+        <group style-id="content-group" id="deguitemodulestudio-introLink-group051">
+            <text>Editoren: Performance der Live-Validierung wurde verbessert durch Schließen eines Speicherlecks.</text>
+            <text>Eine Menge Bugfixes: In die Version 0.5.1 sind viele Korrekturen eingeflossen, vor allem bei der Behandlung von Relationen mit Doctrine.</text>
+            <text>Factories für Business Entities und Collections: für jede Anwendung wird nun eine Factory-Klasse generiert, mit der die Instantiierung neuer Business-Objekte auf eine Zeile Code reduziert wird. Diese Factory bekommt auch den Kontext übergeben, von dem aus das Objekt angefordert wurde. Zum Beispiel kann dies eine Action, ein Form-Handler oder auch ein Content-Type sein. Damit ist es möglich, in Spezialisierungen dieser Factory-Klasse verschiedene Business-Klassen je nach Kontext zu verwenden.</text>
+            <text>Verbessertes Handling von User-Feldern: hat man in einer Entität Benutzerfelder, so wird das Bearbeiten dieser Felder nun mit einer AutoComplete-Funktion in den Formularen realisiert.</text>
+            <text>Behandlung von Upload-Feldern mit verschiedenen Einstellungsmöglichkeiten im Modell: man kann nun bei Upload-Feldern einige Einstellungen modellieren, zum Beispiel die erlaubten Dateitypen, den Namen des Unterordners, in dem die Dateien gespeichert werden, oder auch das Schema zur Benennung der hochgeladenen Dateien. Der Generator erzeugt daraus ein komplettes Upload-Handling, bei Bildern inklusive Support für das Thumbnail-Modul.</text>
+            <text>Relationen verwalten: die Behandlung von Relationen wurde komplett überarbeitet, insbesondere in den Edit-Formularen. Es ist möglich, beim Bearbeiten einer Entität andere Objekte durch AutoComplete-Felder auszuwählen, zu referenzieren und zu verwalten (Inline Editing). Jede Relation hat eine neue Einstellung namens "Edit-Typ" auf Modellierungsebene. Damit kann definiert werden, auf welcher Seite der Beziehung welche Aktionen möglich sein sollen.</text>
+            <text>Verbesserte Ajax-Unterstützung: neben dem Zikula.ImageViewer wird auch die Bibliothek Zikula.UI verwendet. Beim Anschauen und Editieren von Objekten werden damit referenzierte Objekte bearbeitet oder eingeblendet.</text>
+            <text>Direkte Validierung: beim Bearbeiten von Entitäten wird nun für einige Feldtypen auch client-seitige Validierung mit validation.js unterstützt.</text>
+            <text>Beschreibungen der Elemente: jedes Modellelement hat ein neues Feld zur fachlichen Dokumentation. Im Hauptgenerator wird diese Information derzeit nur verwendet für die Anwendung selbst (Modulbeschreibung), Entitäten (Beschreibungstext am Kopf der Listenansicht) und deren Felder (Tooltips mit Zikula.UI für die Labels in Edit-Formularen).</text>
+        </group>
   		<group style-id="content-group" id="deguitemodulestudio-introLink-group050">
             <text>Aktualisiert auf Eclipse 3.6 Helios und entsprechende Framework-Versionen</text>
             <text>Einführung des neuen Brandings (neues Logo, Splash-Screen und About-Screen)</text>
