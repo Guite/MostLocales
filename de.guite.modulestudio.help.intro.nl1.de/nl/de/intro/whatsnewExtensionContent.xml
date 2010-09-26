@@ -6,7 +6,7 @@
         </group>
         <group style-id="content-group" id="deguitemodulestudio-introLink-group051">
             <text>Editoren: Performance der Live-Validierung wurde verbessert durch Schließen eines Speicherlecks.</text>
-            <text>Eine Menge Bugfixes: In die Version 0.5.1 sind viele Korrekturen eingeflossen, vor allem bei der Behandlung von Relationen mit Doctrine.</text>
+            <text>Eine Menge Bugfixes und Korrekturen, vor allem bei der Behandlung von Relationen mit Doctrine.</text>
             <text>Factories für Business Entities und Collections: für jede Anwendung wird nun eine Factory-Klasse generiert, mit der die Instantiierung neuer Business-Objekte auf eine Zeile Code reduziert wird. Diese Factory bekommt auch den Kontext übergeben, von dem aus das Objekt angefordert wurde. Zum Beispiel kann dies eine Action, ein Form-Handler oder auch ein Content-Type sein. Damit ist es möglich, in Spezialisierungen dieser Factory-Klasse verschiedene Business-Klassen je nach Kontext zu verwenden.</text>
             <text>Verbessertes Handling von User-Feldern: hat man in einer Entität Benutzerfelder, so wird das Bearbeiten dieser Felder nun mit einer AutoComplete-Funktion in den Formularen realisiert.</text>
             <text>Behandlung von Upload-Feldern mit verschiedenen Einstellungsmöglichkeiten im Modell: man kann nun bei Upload-Feldern einige Einstellungen modellieren, zum Beispiel die erlaubten Dateitypen, den Namen des Unterordners, in dem die Dateien gespeichert werden, oder auch das Schema zur Benennung der hochgeladenen Dateien. Der Generator erzeugt daraus ein komplettes Upload-Handling, bei Bildern inklusive Support für das Thumbnail-Modul.</text>
