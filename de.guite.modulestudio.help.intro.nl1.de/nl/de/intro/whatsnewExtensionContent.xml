@@ -4,6 +4,7 @@
         <group style-id="content-group" id="deguitemodulestudio-introLink-group052">
             <text>Aktualisiert auf Eclipse 3.6.1</text>
             <text>Falsche Property-Benennung für Feature-Lizenzlinks auf About-Seite behoben.</text>
+            <text>Support für andere Ausgabeformate (RSS- und Atom-Feeds, CSV-Liste, XML-Markup).</text>
         </group>
         <group style-id="content-group" id="deguitemodulestudio-introLink-group051">
             <text>Editoren: Performance der Live-Validierung wurde verbessert durch Schließen eines Speicherlecks.</text>
