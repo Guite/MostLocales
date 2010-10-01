@@ -9,6 +9,7 @@
             <text>Falsche Benutzung von Gettext in einigen FormHandler-Fehlermeldungen behoben.</text>
             <text>Fehler beim wiederkehrenden Speichern von Relationen repariert.</text>
             <text>Whitelist mit verschiedenen Redirect-Codes für flexibl Redirects in Edit-FormHandlern. Verwendung über returnTo-Parameter in den Edit-Links.</text>
+            <text>Unsichtbare Array-Felder zum Speichern von Metadaten für Upload-Felder.</text>
         </group>
         <group style-id="content-group" id="deguitemodulestudio-introLink-group051">
             <text>Editoren: Performance der Live-Validierung wurde verbessert durch Schließen eines Speicherlecks.</text>
