@@ -12,6 +12,7 @@
             <text>Unsichtbare Array-Felder zum Speichern von Metadaten für Upload-Felder.</text>
             <text>Validator-Klassen für Business Entities mit gängigen Helper-Methoden und der Möglichkeit für eigene Checks.</text>
             <text>Ajax-basierende Prüfungen für direktes Feedback während dem Ändern von Inhalten in Unique-Feldern.</text>
+            <text>Flexibler ShortURL-Support basierend auf einem mächtigen Routing, dynamischen Ersetzungen und verschiedenen Konfigurationen des Sluggable-Behaviors.</text>
         </group>
         <group style-id="content-group" id="deguitemodulestudio-introLink-group051">
             <text>Editoren: Performance der Live-Validierung wurde verbessert durch Schließen eines Speicherlecks.</text>
