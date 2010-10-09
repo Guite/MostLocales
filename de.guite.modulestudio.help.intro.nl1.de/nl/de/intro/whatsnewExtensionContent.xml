@@ -4,6 +4,9 @@
         <group style-id="content-group" id="deguitemodulestudio-introLink-group052">
             <text>Aktualisiert auf Eclipse 3.6.1</text>
             <text>Falsche Property-Benennung für Feature-Lizenzlinks auf About-Seite behoben.</text>
+            <text>Kategorien in der Properties View für besseren Überblick über die verfügbaren Eigenschaften.</text>
+            <text>Beschreibungen für die einzelnen Properties (sichtbar in der Statusleiste am unteren Fensterrand).</text>
+            <text>Mehrzeiliger Editor für generisches Dokumentationsfeld aktiviert.</text>
             <text>Support für andere Ausgabeformate (RSS- und Atom-Feeds, CSV-Liste, XML-Markup).</text>
             <text>Support für Sprach-Felder. Diese können genauso wie Felder für Länder, Farben und IP-Adressen durch Aktivieren der entsprechenden StringField-Eigenschaften verwendet werden.</text>
             <text>Falsche Benutzung von Gettext in einigen FormHandler-Fehlermeldungen behoben.</text>
