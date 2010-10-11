@@ -11,6 +11,7 @@
             <text>Support für Sprach-Felder. Diese können genauso wie Felder für Länder, Farben und IP-Adressen durch Aktivieren der entsprechenden StringField-Eigenschaften verwendet werden.</text>
             <text>Falsche Benutzung von Gettext in einigen FormHandler-Fehlermeldungen behoben.</text>
             <text>Fehler beim wiederkehrenden Speichern von Relationen repariert.</text>
+            <text>Bugfix für die Initialisierung von Bool'schen Modulvariablen.</text>
             <text>Whitelist mit verschiedenen Redirect-Codes für flexibl Redirects in Edit-FormHandlern. Verwendung über returnTo-Parameter in den Edit-Links.</text>
             <text>Unsichtbare Array-Felder zum Speichern von Metadaten für Upload-Felder.</text>
             <text>Validator-Klassen für Business Entities mit gängigen Helper-Methoden und der Möglichkeit für eigene Checks.</text>
