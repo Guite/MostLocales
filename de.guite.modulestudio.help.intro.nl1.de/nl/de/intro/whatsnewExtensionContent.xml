@@ -17,6 +17,7 @@
             <text>Validator-Klassen für Business Entities mit gängigen Helper-Methoden und der Möglichkeit für eigene Checks.</text>
             <text>Ajax-basierende Prüfungen für direktes Feedback während dem Ändern von Inhalten in Unique-Feldern.</text>
             <text>Flexibler ShortURL-Support basierend auf einem mächtigen Routing, dynamischen Ersetzungen und verschiedenen Konfigurationen des Sluggable-Behaviors.</text>
+            <text>Standardwert für das Feld Lizenz von GPL auf LGPL geändert.</text>
             <text>Vorschaubilder werden nun mit ihren Originaldateien zusammen gelöscht.</text>
             <text>Möglichkeit zum Löschen von Upload-Dateien ohne Hochladen einer neuen Datei.</text>
         </group>
