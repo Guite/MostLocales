@@ -21,6 +21,7 @@
             <text>Vorschaubilder werden nun mit ihren Originaldateien zusammen gelöscht.</text>
             <text>Möglichkeit zum Löschen von Upload-Dateien ohne Hochladen einer neuen Datei.</text>
             <text>HTML5 Geolocation-Support zur Ermittlung der Standardkoordination bei Nutzung des Geograhical-Behavior.</text>
+            <text>Modul-Layout aktualisiert für Konformität zur Standardstruktur (Hauptorder src und tests).</text>
         </group>
         <group style-id="content-group" id="deguitemodulestudio-introLink-group051">
             <text>Editoren: Performance der Live-Validierung wurde verbessert durch Schließen eines Speicherlecks.</text>
