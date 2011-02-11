@@ -24,6 +24,7 @@
             <text>Modul-Layout aktualisiert für Konformität zur Standardstruktur (Hauptorder src und tests).</text>
             <text>Farbauswahl für Stringfelder mit aktiviertem htmlcolor-Attribut.</text>
             <text>Baumhierarchien-Verwaltung für Entities mit Nested Sets.</text>
+            <text>Manuelles Editieren von Slugs (Permalinks) wenn sluggableCanUpdate auf true gesetzt ist.</text>
         </group>
         <group style-id="content-group" id="deguitemodulestudio-introLink-group051">
             <text>Editoren: Performance der Live-Validierung wurde verbessert durch Schließen eines Speicherlecks.</text>
