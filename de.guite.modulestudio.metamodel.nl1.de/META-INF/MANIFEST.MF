@@ -1,7 +1,0 @@
-Manifest-Version: 1.0
-Bundle-ManifestVersion: 2
-Bundle-Name: %fragmentName
-Bundle-SymbolicName: de.guite.modulestudio.metamodel.nl1.de
-Bundle-Version: 1.0.0
-Fragment-Host: de.guite.modulestudio.metamodel;bundle-version="[1.0.1,1.1.0)"
-Bundle-Vendor: %providerName
