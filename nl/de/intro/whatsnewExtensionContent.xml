@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<introContent>
+  	<extensionContent id="whatsnew-top-left" style="css/style.css" name="Was gibts Neues Extension" path="whatsnew/@">
+        <group style-id="content-group" id="deguitemodulestudio-introLink-group052">
+            <text>Aktualisiert auf Eclipse 3.6.1</text>
+            <text>Falsche Property-Benennung für Feature-Lizenzlinks auf About-Seite behoben.</text>
+            <text>Kategorien in der Properties View für besseren Überblick über die verfügbaren Eigenschaften.</text>
+            <text>Beschreibungen für die einzelnen Properties (sichtbar in der Statusleiste am unteren Fensterrand).</text>
+            <text>Mehrzeiliger Editor für generisches Dokumentationsfeld aktiviert.</text>
+            <text>Support für andere Ausgabeformate (RSS- und Atom-Feeds, CSV-Liste, XML-Markup).</text>
+            <text>Support für Sprach-Felder. Diese können genauso wie Felder für Länder, Farben und IP-Adressen durch Aktivieren der entsprechenden StringField-Eigenschaften verwendet werden.</text>
+            <text>Falsche Benutzung von Gettext in einigen FormHandler-Fehlermeldungen behoben.</text>
+            <text>Fehler beim wiederkehrenden Speichern von Relationen repariert.</text>
+            <text>Bugfix für die Initialisierung von Bool'schen Modulvariablen.</text>
+            <text>Whitelist mit verschiedenen Redirect-Codes für flexibl Redirects in Edit-FormHandlern. Verwendung über returnTo-Parameter in den Edit-Links.</text>
+            <text>Unsichtbare Array-Felder zum Speichern von Metadaten für Upload-Felder.</text>
+            <text>Validator-Klassen für Business Entities mit gängigen Helper-Methoden und der Möglichkeit für eigene Checks.</text>
+            <text>Ajax-basierende Prüfungen für direktes Feedback während dem Ändern von Inhalten in Unique-Feldern.</text>
+            <text>Flexibler ShortURL-Support basierend auf einem mächtigen Routing, dynamischen Ersetzungen und verschiedenen Konfigurationen des Sluggable-Behaviors.</text>
+            <text>Standardwert für das Feld Lizenz von GPL auf LGPL geändert.</text>
+            <text>Vorschaubilder werden nun mit ihren Originaldateien zusammen gelöscht.</text>
+            <text>Möglichkeit zum Löschen von Upload-Dateien ohne Hochladen einer neuen Datei.</text>
+            <text>HTML5 Geolocation-Support zur Ermittlung der Standardkoordination bei Nutzung des Geograhical-Behavior.</text>
+            <text>Modul-Layout aktualisiert für Konformität zur Standardstruktur (Hauptorder src und tests).</text>
+            <text>Farbauswahl für Stringfelder mit aktiviertem htmlcolor-Attribut.</text>
+            <text>Baumhierarchien-Verwaltung für Entities mit Nested Sets.</text>
+            <text>Manuelles Editieren von Slugs (Permalinks) wenn sluggableCanUpdate auf true gesetzt ist.</text>
+            <text>Die Documentation-Cartridge wurde entfernt, da sie in Reporting enthalten sein wird.</text>
+        </group>
+        <group style-id="content-group" id="deguitemodulestudio-introLink-group051">
+            <text>Editoren: Performance der Live-Validierung wurde verbessert durch Schließen eines Speicherlecks.</text>
+            <text>Eine Menge Bugfixes und Korrekturen, vor allem bei der Behandlung von Relationen mit Doctrine.</text>
+            <text>Factories für Business Entities und Collections: für jede Anwendung wird nun eine Factory-Klasse generiert, mit der die Instantiierung neuer Business-Objekte auf eine Zeile Code reduziert wird. Diese Factory bekommt auch den Kontext übergeben, von dem aus das Objekt angefordert wurde. Zum Beispiel kann dies eine Action, ein Form-Handler oder auch ein Content-Type sein. Damit ist es möglich, in Spezialisierungen dieser Factory-Klasse verschiedene Business-Klassen je nach Kontext zu verwenden.</text>
+            <text>Verbessertes Handling von User-Feldern: hat man in einer Entität Benutzerfelder, so wird das Bearbeiten dieser Felder nun mit einer AutoComplete-Funktion in den Formularen realisiert.</text>
+            <text>Behandlung von Upload-Feldern mit verschiedenen Einstellungsmöglichkeiten im Modell: man kann nun bei Upload-Feldern einige Einstellungen modellieren, zum Beispiel die erlaubten Dateitypen, den Namen des Unterordners, in dem die Dateien gespeichert werden, oder auch das Schema zur Benennung der hochgeladenen Dateien. Der Generator erzeugt daraus ein komplettes Upload-Handling, bei Bildern inklusive Support für das Thumbnail-Modul.</text>
+            <text>Relationen verwalten: die Behandlung von Relationen wurde komplett überarbeitet, insbesondere in den Edit-Formularen. Es ist möglich, beim Bearbeiten einer Entität andere Objekte durch AutoComplete-Felder auszuwählen, zu referenzieren und zu verwalten (Inline Editing). Jede Relation hat eine neue Einstellung namens "Edit-Typ" auf Modellierungsebene. Damit kann definiert werden, auf welcher Seite der Beziehung welche Aktionen möglich sein sollen.</text>
+            <text>Verbesserte Ajax-Unterstützung: neben dem Zikula.ImageViewer wird auch die Bibliothek Zikula.UI verwendet. Beim Anschauen und Editieren von Objekten werden damit referenzierte Objekte bearbeitet oder eingeblendet.</text>
+            <text>Direkte Validierung: beim Bearbeiten von Entitäten wird nun für einige Feldtypen auch client-seitige Validierung mit validation.js unterstützt.</text>
+            <text>Beschreibungen der Elemente: jedes Modellelement hat ein neues Feld zur fachlichen Dokumentation. Im Hauptgenerator wird diese Information derzeit nur verwendet für die Anwendung selbst (Modulbeschreibung), Entitäten (Beschreibungstext am Kopf der Listenansicht) und deren Felder (Tooltips mit Zikula.UI für die Labels in Edit-Formularen).</text>
+        </group>
+  		<group style-id="content-group" id="deguitemodulestudio-introLink-group050">
+            <text>Aktualisiert auf Eclipse 3.6 Helios und entsprechende Framework-Versionen</text>
+            <text>Einführung des neuen Brandings (neues Logo, Splash-Screen und About-Screen)</text>
+            <text>Umfangreiches Continuous Integration Server Setup zur automatischen Ausführung verschiedener Builds und Tests</text>
+            <text>Remote-Installer Komponente für Repository-basiertes Deployment und native Betriebssystem-Integration</text>
+            <text>Anzeige von RSS-Feeds auf der Willkommensseite Web-Ressourcen integriert</text>
+            <text>Metamodell-Packages korrigiert. Dies war ein größeres Refactoring auf Grund eines Problems in früheren Versionen. Leider hat dies die Abwärtskompatibilität zerstört, aber zum Glück wird das nicht noch einmal passieren, da in künftigen Versionen jegliche Migrationsarbeiten automatisch mit dem neuen Versionssystem geschehen (siehe nächsten Punkt).</text>
+            <text>Unterstützung für eine Versionierung der Metamodelle und automatische Migration der abhängigen Modelle.</text>
+            <text>Neue Felder zur Definition des Application Types und der Lizenz einer Anwendung hinzugefügt.</text>
+            <text>Persistenz- und Verhaltensschichten in eine gemeinsame Datenschicht verschmolzen und einige Redundanzen entfernt.</text>
+            <text>Terminologie geändert zu bekannten MVC-Begriffen.</text>
+            <text>Volle Unterstützung für alle relevanten Funktionalitäten von Doctrine in der Datenschicht vorbereitet (Feld- und Beziehungstypen, Validatoren, Behaviors und Event-Listener).</text>
+            <text>Automatische Erstellung der initialen Container im Diagramm des Haupteditors hinzugefügt.</text>
+            <text>Unterstützung für verschiedene Generatoren, im Moment gibt es vier Cartridges: zClassic, zOO, documentation, reporting.</text>
+            <text>zClassic-Generator aktualisiert für Zikula 1.3.0 (inklusive Doctrine-Support).</text>
+            <text>Generator-Erweiterungen: Profiler, Precompiler, Php Beautifier (Quelltext-Formatierer)</text>
+            <text>Verschiedene kleinere Bugfixes und Neuerungen.</text>
+  		</group>
+    </extensionContent>
+    <extensionContent id="whatsnew-top-right" style="css/style.css" name="Was gibts Neues Extension" path="whatsnew/@">
+        <group style-id="content-group" id="news-web" label="MOST News">
+            <contentProvider id="url=http://modulestudio.de/de/news.rss##welcome_items=20##no_news_url=http://modulestudio.de/de/news/##no_news_text=MOST News Artikel Feed" pluginId="org.eclipse.ui.intro" class="org.eclipse.ui.intro.contentproviders.EclipseRSSViewer">
+            </contentProvider>
+        </group>
+  	</extensionContent>
+    <extensionContent id="whatsnew-bottom-left" style="css/style.css" name="Was gibts Neues Extension" path="whatsnew/@">
+    </extensionContent>
+    <extensionContent id="whatsnew-bottom-right" style="css/style.css" name="Was gibts Neues Extension" path="whatsnew/@">
+    </extensionContent>
+</introContent>
