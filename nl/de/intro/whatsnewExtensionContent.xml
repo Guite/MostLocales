@@ -56,6 +56,7 @@
             <text>zClassic-Generator aktualisiert für Zikula 1.3.0 (inklusive Doctrine-Support).</text>
             <text>Generator-Erweiterungen: Profiler, Precompiler, Php Beautifier (Quelltext-Formatierer)</text>
             <text>Verschiedene kleinere Bugfixes und Neuerungen.</text>
+            <text>Zum Abrufen der Anzahl betroffener Datensätze wird nun direkt Doctrine_Pager anstatt einer eigenen selectCount-Methode verwendet.</text>
   		</group>
     </extensionContent>
     <extensionContent id="whatsnew-top-right" style="css/style.css" name="Was gibts Neues Extension" path="whatsnew/@">
