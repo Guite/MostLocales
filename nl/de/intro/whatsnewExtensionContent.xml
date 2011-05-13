@@ -27,6 +27,9 @@
             <text>Manuelles Editieren von Slugs (Permalinks) wenn sluggableCanUpdate auf true gesetzt ist.</text>
             <text>Die Documentation-Cartridge wurde entfernt, da sie in Reporting enthalten sein wird.</text>
             <text>Die Generierung exportiert nun automatisch alle Diagramme in verschiedenen Bildformaten.</text>
+            <text>Support für alle wichtigen Core Event Listener.</text>
+            <text>Support für die neuesten Änderungen im Hook-System.</text>
+            <text>Verbesserte Unterstützung des i18n Behaviours.</text>
         </group>
         <group style-id="content-group" id="deguitemodulestudio-introLink-group051">
             <text>Editoren: Performance der Live-Validierung wurde verbessert durch Schließen eines Speicherlecks.</text>
