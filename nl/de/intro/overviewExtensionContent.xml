@@ -24,8 +24,7 @@
 			<text> </text>
        	</group>
         <group style-id="content-group" id="deguitemodulestudio-introLink-group">
-            <text>Dies recht frühe Version von ModuleStudio enthält nur grundlegende Funktionalität, vorbereitend für zukünftige Erweiterungen.</text>
-            <text>Es ist geplant, dass MOST in vier verschiedenen Editionen kommt (CE, SE, PE, EE).</text>
+            <text>Diese recht frühe Version von ModuleStudio enthält nur grundlegende Funktionalität, vorbereitend für zukünftige Erweiterungen.</text>
             <text>Bitte das Support-Forum für Fragen, Vorschläge und anderes Feedback verwenden.</text>
         </group>
     </extensionContent>
