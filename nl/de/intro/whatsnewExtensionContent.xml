@@ -2,6 +2,7 @@
 <introContent>
   	<extensionContent id="whatsnew-top-left" style="css/style.css" name="Was gibts Neues Extension" path="whatsnew/@">
         <group style-id="content-group" id="deguitemodulestudio-introLink-group052">
+            <text>Umstellung der Modellierungssprache und des Generators zur Unterstützung von Doctrine 2.1 in der Datenschicht.</text>
             <text>Aktualisiert auf Eclipse 3.7 (Indigo).</text>
             <text>Falsche Property-Benennung für Feature-Lizenzlinks auf About-Seite behoben.</text>
             <text>Kategorien in der Properties View für besseren Überblick über die verfügbaren Eigenschaften.</text>
