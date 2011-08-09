@@ -26,7 +26,7 @@
     </extensionContent>
     <extensionContent id="webresources-bottom-left" style="css/style.css" name="Web-Ressourcen Extension" path="webresources/@">
         <group style-id="content-group" id="deguitemodulestudio-introLink-group">
-            <link label="Generator-Projekt" url="http://code.zikula.org/generator/" id="deguitemodulestudio-introLink" style-id="content-link">
+            <link label="Generator-Projekt" url="https://github.com/Guite/MostGenerator" id="deguitemodulestudio-introLink" style-id="content-link">
                 <text>Das ausgelagerte Generator-Projekt enthält Cartridges für verschiedene Zwecke.</text>
             </link>
             <link label="Tester group" url="http://groups.google.de/group/most-dev" id="deguitemodulestudio-introLink" style-id="content-link">
