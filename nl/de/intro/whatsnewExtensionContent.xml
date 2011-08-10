@@ -3,14 +3,16 @@
   	<extensionContent id="whatsnew-top-left" style="css/style.css" name="Was gibts Neues Extension" path="whatsnew/@">
         <group style-id="content-group" id="deguitemodulestudio-introLink-group052">
             <text>Erste Version des Benutzerhandbuchs als Referenz (ganz simple Version ohne Interaktionsmöglichkeiten).</text>
-            <text>Umstellung der Modellierungssprache und des Generators zur Unterstützung von Doctrine 2.1 in der Datenschicht.</text>
+            <text>Umfangreiche Aktualisierung der Modellierungssprache und des Generators zur Unterstützung von Doctrine 2.1 in der Datenschicht. Dies beinhaltet viele neue Features, wie zum Beispiel die Unterscheidung von unidirektionalen und bidirektionalen Assoziationen oder die Möglichkeit Beziehungen zu sortieren und zu indizieren. Im Generator wurden die Ebenen für Business Entities und Model Records verschmolzen zu einem Layer für Entitäten. Dies reduziert eine Menge Code und verbessert die Verständlichkeit der Architektur sowie der gesamten Anwendungsstruktur. Außerdem haben wir ein neues Validator-Framework hinzugefügt, wie auch einige andere Funktionen um so viele Extensions wie möglich beizubehalten.</text>
+            <text>Es ist nun möglich optionale Datumswerte beim Editieren existierender Entitäten zurückzusetzen.</text>
+            <text>Blacklist für gefährliche Dateiformate hinzugefügt, deren Upload immer geblockt wird aus Sicherheitsgründen.</text>
             <text>Aktualisiert auf Eclipse 3.7 (Indigo).</text>
             <text>Falsche Property-Benennung für Feature-Lizenzlinks auf About-Seite behoben.</text>
             <text>Kategorien in der Properties View für besseren Überblick über die verfügbaren Eigenschaften.</text>
             <text>Beschreibungen für die einzelnen Properties (sichtbar in der Statusleiste am unteren Fensterrand).</text>
             <text>Mehrzeiliger Editor für generisches Dokumentationsfeld aktiviert.</text>
             <text>Support für andere Ausgabeformate (RSS- und Atom-Feeds, CSV-Liste, XML-Markup).</text>
-            <text>Support für Sprach-Felder. Diese können genauso wie Felder für Länder, Farben und IP-Adressen durch Aktivieren der entsprechenden StringField-Eigenschaften verwendet werden.</text>
+            <text>Support für Sprach-Felder. Diese können genauso wie Felder für Länder und Farben durch Aktivieren der entsprechenden StringField-Eigenschaften verwendet werden.</text>
             <text>Falsche Benutzung von Gettext in einigen FormHandler-Fehlermeldungen behoben.</text>
             <text>Fehler beim wiederkehrenden Speichern von Relationen repariert.</text>
             <text>Bugfix für die Initialisierung von Bool'schen Modulvariablen.</text>
@@ -34,6 +36,14 @@
             <text>Support für die neuesten Änderungen im Hook-System.</text>
             <text>Verbesserte Unterstützung des i18n Behaviours.</text>
         </group>
+    </extensionContent>
+    <extensionContent id="whatsnew-top-right" style="css/style.css" name="Was gibts Neues Extension" path="whatsnew/@">
+        <group style-id="content-group" id="news-web" label="MOST News">
+            <contentProvider id="url=http://modulestudio.de/de/news.rss##welcome_items=20##no_news_url=http://modulestudio.de/de/news/##no_news_text=MOST News Artikel Feed" pluginId="org.eclipse.ui.intro" class="org.eclipse.ui.intro.contentproviders.EclipseRSSViewer">
+            </contentProvider>
+        </group>
+  	</extensionContent>
+    <extensionContent id="whatsnew-bottom-left" style="css/style.css" name="Was gibts Neues Extension" path="whatsnew/@">
         <group style-id="content-group" id="deguitemodulestudio-introLink-group051">
             <text>Editoren: Performance der Live-Validierung wurde verbessert durch Schließen eines Speicherlecks.</text>
             <text>Eine Menge Bugfixes und Korrekturen, vor allem bei der Behandlung von Relationen mit Doctrine.</text>
@@ -45,33 +55,6 @@
             <text>Direkte Validierung: beim Bearbeiten von Entitäten wird nun für einige Feldtypen auch client-seitige Validierung mit validation.js unterstützt.</text>
             <text>Beschreibungen der Elemente: jedes Modellelement hat ein neues Feld zur fachlichen Dokumentation. Im Hauptgenerator wird diese Information derzeit nur verwendet für die Anwendung selbst (Modulbeschreibung), Entitäten (Beschreibungstext am Kopf der Listenansicht) und deren Felder (Tooltips mit Zikula.UI für die Labels in Edit-Formularen).</text>
         </group>
-  		<group style-id="content-group" id="deguitemodulestudio-introLink-group050">
-            <text>Aktualisiert auf Eclipse 3.6 Helios und entsprechende Framework-Versionen</text>
-            <text>Einführung des neuen Brandings (neues Logo, Splash-Screen und About-Screen)</text>
-            <text>Umfangreiches Continuous Integration Server Setup zur automatischen Ausführung verschiedener Builds und Tests</text>
-            <text>Remote-Installer Komponente für Repository-basiertes Deployment und native Betriebssystem-Integration</text>
-            <text>Anzeige von RSS-Feeds auf der Willkommensseite Web-Ressourcen integriert</text>
-            <text>Metamodell-Packages korrigiert. Dies war ein größeres Refactoring auf Grund eines Problems in früheren Versionen. Leider hat dies die Abwärtskompatibilität zerstört, aber zum Glück wird das nicht noch einmal passieren, da in künftigen Versionen jegliche Migrationsarbeiten automatisch mit dem neuen Versionssystem geschehen (siehe nächsten Punkt).</text>
-            <text>Unterstützung für eine Versionierung der Metamodelle und automatische Migration der abhängigen Modelle.</text>
-            <text>Neue Felder zur Definition des Application Types und der Lizenz einer Anwendung hinzugefügt.</text>
-            <text>Persistenz- und Verhaltensschichten in eine gemeinsame Datenschicht verschmolzen und einige Redundanzen entfernt.</text>
-            <text>Terminologie geändert zu bekannten MVC-Begriffen.</text>
-            <text>Volle Unterstützung für alle relevanten Funktionalitäten von Doctrine in der Datenschicht vorbereitet (Feld- und Beziehungstypen, Validatoren, Behaviors und Event-Listener).</text>
-            <text>Automatische Erstellung der initialen Container im Diagramm des Haupteditors hinzugefügt.</text>
-            <text>Unterstützung für verschiedene Generatoren, im Moment gibt es vier Cartridges: zClassic, zOO, documentation, reporting.</text>
-            <text>zClassic-Generator aktualisiert für Zikula 1.3.0 (inklusive Doctrine-Support).</text>
-            <text>Generator-Erweiterungen: Profiler, Precompiler, Php Beautifier (Quelltext-Formatierer)</text>
-            <text>Verschiedene kleinere Bugfixes und Neuerungen.</text>
-            <text>Zum Abrufen der Anzahl betroffener Datensätze wird nun direkt Doctrine_Pager anstatt einer eigenen selectCount-Methode verwendet.</text>
-  		</group>
-    </extensionContent>
-    <extensionContent id="whatsnew-top-right" style="css/style.css" name="Was gibts Neues Extension" path="whatsnew/@">
-        <group style-id="content-group" id="news-web" label="MOST News">
-            <contentProvider id="url=http://modulestudio.de/de/news.rss##welcome_items=20##no_news_url=http://modulestudio.de/de/news/##no_news_text=MOST News Artikel Feed" pluginId="org.eclipse.ui.intro" class="org.eclipse.ui.intro.contentproviders.EclipseRSSViewer">
-            </contentProvider>
-        </group>
-  	</extensionContent>
-    <extensionContent id="whatsnew-bottom-left" style="css/style.css" name="Was gibts Neues Extension" path="whatsnew/@">
     </extensionContent>
     <extensionContent id="whatsnew-bottom-right" style="css/style.css" name="Was gibts Neues Extension" path="whatsnew/@">
     </extensionContent>
