@@ -2,6 +2,7 @@
 <introContent>
   	<extensionContent id="whatsnew-top-left" style="css/style.css" name="Was gibts Neues Extension" path="whatsnew/@">
         <group style-id="content-group" id="deguitemodulestudio-introLink-group052">
+            <text>Support für JSON-Templates im Generator hinzugefügt.</text>
             <text>Verwendung der Imagine Bildbearbeitungsbibliothek anstelle des Thumbnails-Modules zur Erstellung von Vorschaubildern auf Abruf.</text>
             <text>Erste Version des Benutzerhandbuchs als Referenz (ganz simple Version ohne Interaktionsmöglichkeiten).</text>
             <text>Umfangreiche Aktualisierung der Modellierungssprache und des Generators zur Unterstützung von Doctrine 2.1 in der Datenschicht. Dies beinhaltet viele neue Features, wie zum Beispiel die Unterscheidung von unidirektionalen und bidirektionalen Assoziationen oder die Möglichkeit Beziehungen zu sortieren und zu indizieren. Im Generator wurden die Ebenen für Business Entities und Model Records verschmolzen zu einem Layer für Entitäten. Dies reduziert eine Menge Code und verbessert die Verständlichkeit der Architektur sowie der gesamten Anwendungsstruktur. Außerdem haben wir ein neues Validator-Framework hinzugefügt, wie auch einige andere Funktionen um so viele Extensions wie möglich beizubehalten.</text>
