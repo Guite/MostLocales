@@ -2,11 +2,12 @@
 <compositeCheatsheet name="ModuleStudio Cheatsheet">
    <taskGroup kind="set" name="Software auf einfachem Wege bauen" skip="false">
       <intro>
-         <b>Dieses Cheatsheet ist ein Tutorial, das die Erstellung von Software mit ModuleStudio demonstriert.</b>
+         <description>
+             <b>Dieses Cheatsheet ist ein Tutorial, das die Erstellung von Anwendungen mit ModuleStudio demonstriert.</b>
+         </description>
       </intro>
       <onCompletion>
-         Nun existiert eine komplette Anwendung durch die einfache Benutzung von Modellelementen.
-<b>Super, nicht wahr?</b>
+         Nun existiert eine komplette Anwendung durch die einfache Benutzung von Modellelementen. <b>Super, nicht wahr?</b>
       </onCompletion>
       <task kind="cheatsheet" name="Ein neues Projekt starten" skip="true">
          <intro>
@@ -65,16 +66,6 @@
             <param name="path" value="6_editorcontroller.xml">
             </param>
          </task>
-         <task kind="cheatsheet" name="Berechtigungs-Editor" skip="true">
-            <intro>
-               <b>Einführung</b>
-            </intro>
-            <onCompletion>
-               <b>Zusammenfassung</b>
-            </onCompletion>
-            <param name="path" value="7_editorpermission.xml">
-            </param>
-         </task>
          <task kind="cheatsheet" name="View-Editor" skip="true">
             <intro>
                <b>Einführung</b>
@@ -82,7 +73,17 @@
             <onCompletion>
                <b>Zusammenfassung</b>
             </onCompletion>
-            <param name="path" value="8_editorview.xml">
+            <param name="path" value="7_editorview.xml">
+            </param>
+         </task>
+         <task kind="cheatsheet" name="Workflow-Editor" skip="true">
+            <intro>
+               <b>Einführung</b>
+            </intro>
+            <onCompletion>
+               <b>Zusammenfassung</b>
+            </onCompletion>
+            <param name="path" value="8_editorworkflow.xml">
             </param>
          </task>
       </taskGroup>
