@@ -2,22 +2,22 @@
 <cheatsheet title="Die Umgebung erkunden">
    <intro>
       <description>
-         <b>Body</b>
+         Die grundlegenden Elemente von ModuleStudio kennen und benutzen lernen.
       </description>
    </intro>
    <item title="Menüs und Symbolleisten" dialog="true" skip="false">
       <description>
-         <b>Body</b>
+         Beschreibung folgt.
       </description>
    </item>
    <item title="Fenster und Views" dialog="true" skip="false">
       <description>
-         <b>Body</b>
+         Beschreibung folgt.
       </description>
    </item>
    <item title="Editoren" dialog="true" skip="false">
       <description>
-         <b>Body</b>
+         Beschreibung folgt.
       </description>
       <subitem label="Unter-Schritt" skip="false">
       </subitem>
