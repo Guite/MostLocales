@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="de.guite.modulestudio.locales.feature"
+      label="%featureName"
+      version="1.0.0.qualifier"
+      provider-name="%providerName"
+      plugin="de.guite.modulestudio.branding"
+      image="most_update_120.jpg"
+      license-feature="de.guite.modulestudio.license"
+      license-feature-version="1.0.0.qualifier">
+
+   <description url="%descriptionUrl">
+      %description
+   </description>
+
+   <copyright url="%copyrightUrl">
+      %copyright
+   </copyright>
+
+   <requires>
+      <import plugin="de.guite.modulestudio.branding" version="1.0.0" match="equivalent"/>
+      <import plugin="de.guite.modulestudio.gmf.cust" version="1.0.0" match="equivalent"/>
+      <import plugin="de.guite.modulestudio.gmf.main" version="1.0.0" match="equivalent"/>
+      <import plugin="de.guite.modulestudio.gmf.model" version="1.0.0" match="equivalent"/>
+      <import plugin="de.guite.modulestudio.gmf.controller" version="1.0.0" match="equivalent"/>
+      <import plugin="de.guite.modulestudio.help.cheatsheets" version="1.0.0" match="equivalent"/>
+      <import plugin="de.guite.modulestudio.help.intro" version="1.0.0" match="equivalent"/>
+      <import plugin="de.guite.modulestudio.help" version="1.0.0" match="equivalent"/>
+      <import plugin="de.guite.modulestudio.metamodel.edit" version="1.0.0" match="equivalent"/>
+      <import plugin="de.guite.modulestudio.metamodel" version="1.0.1" match="equivalent"/>
+      <import plugin="de.guite.modulestudio.update" version="1.0.0" match="equivalent"/>
+      <import plugin="org.zikula.modulestudio.generator" version="1.0.0" match="equivalent"/>
+   </requires>
+
+   <plugin
+         id="de.guite.modulestudio.branding.nl1.de"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="de.guite.modulestudio.gmf.cust.nl1.de"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="de.guite.modulestudio.gmf.main.nl1.de"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="de.guite.modulestudio.gmf.model.nl1.de"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="de.guite.modulestudio.gmf.controller.nl1.de"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="de.guite.modulestudio.help.cheatsheets.nl1.de"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="de.guite.modulestudio.help.intro.nl1.de"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="de.guite.modulestudio.help.nl1.de"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="de.guite.modulestudio.metamodel.edit.nl1.de"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="de.guite.modulestudio.metamodel.nl1.de"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="de.guite.modulestudio.update.nl1.de"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.zikula.modulestudio.generator.nl1.de"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         fragment="true"
+         unpack="false"/>
+
+</feature>
