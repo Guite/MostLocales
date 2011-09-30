@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
 	<name>de.guite.modulestudio.help.nl1.de</name>
+=======
+	<name>de.guite.modulestudio.help.intro.nl1.de</name>
+>>>>>>> 68f7b0c1e7ab4297e30ba7100ae945c70e82e315
 	<comment></comment>
 	<projects>
 	</projects>
