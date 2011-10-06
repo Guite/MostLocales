@@ -2,6 +2,26 @@
 <introContent>
   	<extensionContent id="whatsnew-top-left" style="css/style.css" name="Was gibts Neues Extension" path="whatsnew/@">
         <group style-id="content-group" id="deguitemodulestudio-introLink-group052">
+            <text>Möglichkeit zur Modellierung von Ajax-basierten Schaltern für Boolsche Flags (einfacher Switch auf View- und Display-Seiten).</text>
+            <text>Option auf View-Seiten zum Umschalten zwischen paginierten und vollen Listen.</text>
+            <text>Menülinks zum Wechsel zwischen User- und Admin-Bereich hinzugefügt.</text>
+            <text>Fehlende Übersetzung für Form-Label Dokumentations-Tooltips hinzugefügt.</text>
+            <text>Prüfung auf existierende und beschreibbare Upload-Ordner vor der Installation einer Anwendung.</text>
+            <text>Meta-Daten hochgeladener Dateien (z.B. Dateigröße, Bildabmessungen und andere Dinge) werden nun in XML-Ausgabetemplates berücksichtigt.</text>
+            <text>Support für Country-Felder verbessert durch Hinzufügen eines Form Selector Plugins und eines Ausgabe-Modifiers.</text>
+            <text>Setter von Bool-Werten verbessert für mehr Typensicherheit.</text>
+            <text>Convenience-Methode hinzugefügt für einfachere Zuweisung zusätzlicher Template-Variablen pro Objekttyp.</text>
+            <text>Code zur Verarbeitung von PDF verändert zur Wiederverwendung des neuen dompdf System-Plugins.</text>
+            <text>Generator-Implementierungen von Entity Event Handlern getrennt durch Einführung von Delegates.</text>
+            <text>Behandlung von Argumenten in Controller-Aktionen refaktorisiert zur Sicherstellung der Präferenz gegenüber Request-Variablen.</text>
+            <text>Unterstützung der Paginator-Komponente für eine zuverlässigere Berechnung der Pager-Optionen.</text>
+            <text>Falschen Pager-Offset in Content-Type, Mailz-Plugin und generischem Block behoben.</text>
+            <text>Detail-Links in RSS-Feed Templates behoben (haben auf delete statt display gezeigt, Atom war in Ordnung).</text>
+            <text>Falschen Check in Validator-Methode für Eindeutigkeit behoben.</text>
+            <text>Dekodieren von HTML-Entitäten für den Template-Titel in Display-Templates.</text>
+            <text>Fehlenden unset der creation repeat Property für Cancel-Kommandos in Form-Handlern behoben.</text>
+            <text>Verschiedene Bugfixes für Trees (Ajax-Operationen, Repository-Methoden, Form Plugin für Tree-Selektoren).</text>
+            <text>Aktualisiert auf Eclipse 3.7.1 (Indigo SR1).</text>
             <text>Support für JSON-Templates im Generator hinzugefügt.</text>
             <text>Verwendung der Imagine Bildbearbeitungsbibliothek anstelle des Thumbnails-Modules zur Erstellung von Vorschaubildern auf Abruf.</text>
             <text>Erste Version des Benutzerhandbuchs als Referenz (ganz simple Version ohne Interaktionsmöglichkeiten).</text>
