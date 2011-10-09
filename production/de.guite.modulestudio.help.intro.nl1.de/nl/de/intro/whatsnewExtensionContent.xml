@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <introContent>
   	<extensionContent id="whatsnew-top-left" style="css/style.css" name="Was gibts Neues Extension" path="whatsnew/@">
-        <group style-id="content-group" id="deguitemodulestudio-introLink-group052">
+        <group style-id="content-group" id="deguitemodulestudio-introLink-group053">
             <text>Assistent zur Erstellung neuer Modelle erweitert durch Hinzufügen einer zweiten Seite für grundlegende Anwendungseinstellungen.</text>
             <text>Möglichkeit zur Modellierung von Ajax-basierten Schaltern für Boolsche Flags (einfacher Switch auf View- und Display-Seiten).</text>
             <text>Option auf View-Seiten zum Umschalten zwischen paginierten und vollen Listen.</text>
@@ -23,6 +23,16 @@
             <text>Fehlenden unset der creation repeat Property für Cancel-Kommandos in Form-Handlern behoben.</text>
             <text>Verschiedene Bugfixes für Trees (Ajax-Operationen, Repository-Methoden, Form Plugin für Tree-Selektoren).</text>
             <text>Aktualisiert auf Eclipse 3.7.1 (Indigo SR1).</text>
+        </group>
+    </extensionContent>
+    <extensionContent id="whatsnew-top-right" style="css/style.css" name="Was gibts Neues Extension" path="whatsnew/@">
+        <group style-id="content-group" id="news-web" label="MOST News">
+            <contentProvider id="url=http://modulestudio.de/de/news.rss##welcome_items=20##no_news_url=http://modulestudio.de/de/news/##no_news_text=MOST News Artikel Feed" pluginId="org.eclipse.ui.intro" class="org.eclipse.ui.intro.contentproviders.EclipseRSSViewer">
+            </contentProvider>
+        </group>
+  	</extensionContent>
+    <extensionContent id="whatsnew-bottom-left" style="css/style.css" name="Was gibts Neues Extension" path="whatsnew/@">
+        <group style-id="content-group" id="deguitemodulestudio-introLink-group052">
             <text>Support für JSON-Templates im Generator hinzugefügt.</text>
             <text>Verwendung der Imagine Bildbearbeitungsbibliothek anstelle des Thumbnails-Modules zur Erstellung von Vorschaubildern auf Abruf.</text>
             <text>Erste Version des Benutzerhandbuchs als Referenz (ganz simple Version ohne Interaktionsmöglichkeiten).</text>
@@ -59,14 +69,6 @@
             <text>Support für die neuesten Änderungen im Hook-System.</text>
             <text>Verbesserte Unterstützung des i18n Behaviours.</text>
         </group>
-    </extensionContent>
-    <extensionContent id="whatsnew-top-right" style="css/style.css" name="Was gibts Neues Extension" path="whatsnew/@">
-        <group style-id="content-group" id="news-web" label="MOST News">
-            <contentProvider id="url=http://modulestudio.de/de/news.rss##welcome_items=20##no_news_url=http://modulestudio.de/de/news/##no_news_text=MOST News Artikel Feed" pluginId="org.eclipse.ui.intro" class="org.eclipse.ui.intro.contentproviders.EclipseRSSViewer">
-            </contentProvider>
-        </group>
-  	</extensionContent>
-    <extensionContent id="whatsnew-bottom-left" style="css/style.css" name="Was gibts Neues Extension" path="whatsnew/@">
         <group style-id="content-group" id="deguitemodulestudio-introLink-group051">
             <text>Editoren: Performance der Live-Validierung wurde verbessert durch Schließen eines Speicherlecks.</text>
             <text>Eine Menge Bugfixes und Korrekturen, vor allem bei der Behandlung von Relationen mit Doctrine.</text>
