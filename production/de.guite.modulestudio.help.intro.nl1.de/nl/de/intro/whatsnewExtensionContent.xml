@@ -2,6 +2,7 @@
 <introContent>
   	<extensionContent id="whatsnew-top-left" style="css/style.css" name="Was gibts Neues Extension" path="whatsnew/@">
         <group style-id="content-group" id="deguitemodulestudio-introLink-group052">
+            <text>Assistent zur Erstellung neuer Modelle erweitert durch Hinzufügen einer zweiten Seite für grundlegende Anwendungseinstellungen.</text>
             <text>Möglichkeit zur Modellierung von Ajax-basierten Schaltern für Boolsche Flags (einfacher Switch auf View- und Display-Seiten).</text>
             <text>Option auf View-Seiten zum Umschalten zwischen paginierten und vollen Listen.</text>
             <text>Menülinks zum Wechsel zwischen User- und Admin-Bereich hinzugefügt.</text>
