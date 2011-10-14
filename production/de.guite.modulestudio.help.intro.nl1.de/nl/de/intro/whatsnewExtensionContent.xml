@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <introContent>
-  	<extensionContent id="whatsnew-top-left" style="css/style.css" name="Was gibts Neues Extension" path="whatsnew/@">
+    <extensionContent id="whatsnew-top-left" style="css/style.css" name="Was gibts Neues Extension" path="whatsnew/@">
+        <group style-id="content-group" id="deguitemodulestudio-introLink-group054">
+            <text>Import von XML-Tabellendefinitionen zur Migration bestehender Module. Siehe die Migration-Seite für weitere Informationen.</text>
+        </group>
         <group style-id="content-group" id="deguitemodulestudio-introLink-group053">
             <text>Assistent zur Erstellung neuer Modelle erweitert durch Hinzufügen einer zweiten Seite für grundlegende Anwendungseinstellungen.</text>
             <text>Möglichkeit zur Modellierung von Ajax-basierten Schaltern für Boolsche Flags (einfacher Switch auf View- und Display-Seiten).</text>
