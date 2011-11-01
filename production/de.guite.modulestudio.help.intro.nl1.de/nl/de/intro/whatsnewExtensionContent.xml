@@ -3,6 +3,14 @@
     <extensionContent id="whatsnew-top-left" style="css/style.css" name="Was gibts Neues Extension" path="whatsnew/@">
         <group style-id="content-group" id="deguitemodulestudio-introLink-group054">
             <text>Import von XML-Tabellendefinitionen zur Migration bestehender Module. Siehe die Migration-Seite für weitere Informationen.</text>
+            <text>Auch für individuelle Controller-Aktionen werden nun Templates generiert.</text>
+            <text>Config-Variablen können nun auch Tooltips zur Dokumentation enthalten.</text>
+            <text>Verwendung der Methode getOneOrNullResult zur Selektion einzelner Entitäten.</text>
+            <text>Formatierung der Action-Icons in Listenansichten verbessert.</text>
+            <text>Ort der Form-Handler Basisklassen verschoben.</text>
+            <text>Standardfelder zur Liste erlaubter Sortierkriterien hinzugefügt.</text>
+            <text>Parameter in Util-Klasse zur Bilderzeugung um Vorschaubilder auch individuell ausschneiden zu können (crop-Modus).</text>
+            <text>Bugfixes für Fehlerbehandlung und Post-Processing in Form-Handlern.</text>
             <text>Sortierlinks in View-Templates berücksichtigen nun den all-Parameter um alle Einträge statt paginierter Listen anzuzeigen.</text>
             <text>Spracherkennung in der Bootstrap-Datei bei der Nutzung übersetzbarer Felder verbessert.</text>
             <text>Objekt-Aktionen in Admin-View-Templates beinhalten nun ein Preview-Icon, falls im Controller-Modell eine User-Display-Aktion existiert.</text>
