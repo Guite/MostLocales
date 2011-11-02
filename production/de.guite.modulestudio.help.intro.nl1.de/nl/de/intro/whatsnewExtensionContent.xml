@@ -3,6 +3,7 @@
     <extensionContent id="whatsnew-top-left" style="css/style.css" name="Was gibts Neues Extension" path="whatsnew/@">
         <group style-id="content-group" id="deguitemodulestudio-introLink-group054">
             <text>Import von XML-Tabellendefinitionen zur Migration bestehender Module. Siehe die Migration-Seite für weitere Informationen.</text>
+            <text>Weitere Vereinfachungen im Assistenten zur Erstellung neuer Modelle.</text>
             <text>Eine neue Selection-API vereinfacht die Datenabfrage in der Controller-Schicht.</text>
             <text>Aktionen für Entitäten werden nun zentral gesammlt, zwecks einfacherer Erweiterung und Wiederverwendung.</text>
             <text>Bugfix zur korrekten Initialisierung eingehender m:n-Relationen.</text>
