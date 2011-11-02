@@ -3,6 +3,10 @@
     <extensionContent id="whatsnew-top-left" style="css/style.css" name="Was gibts Neues Extension" path="whatsnew/@">
         <group style-id="content-group" id="deguitemodulestudio-introLink-group054">
             <text>Import von XML-Tabellendefinitionen zur Migration bestehender Module. Siehe die Migration-Seite für weitere Informationen.</text>
+            <text>Eine neue Selection-API vereinfacht die Datenabfrage in der Controller-Schicht.</text>
+            <text>Aktionen für Entitäten werden nun zentral gesammlt, zwecks einfacherer Erweiterung und Wiederverwendung.</text>
+            <text>Bugfix zur korrekten Initialisierung eingehender m:n-Relationen.</text>
+            <text>Bugfixes für User-Felder in Verbindung mit Tree-Wurzelknoten und Edit-Formularen.</text>
             <text>Für die Feldtypen datetime, date und time lässt sich nun auch now als Standardwert einstellen.</text>
             <text>Die Validation Hooks in den Form Handlern wurden nun scharf gestellt (Fehler führen zum Abbruch).</text>
             <text>Auch für individuelle Controller-Aktionen werden nun Templates generiert.</text>
