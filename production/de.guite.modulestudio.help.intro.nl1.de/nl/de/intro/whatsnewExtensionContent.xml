@@ -6,6 +6,7 @@
             <text>Weitere Vereinfachungen im Assistenten zur Erstellung neuer Modelle.</text>
             <text>Es ist nun möglich Dropdowns bzw. Listen-Felder im Modell zu beschreiben (einfache Listen, Listen mit Mehrfachauswahl, Checkbox-Listen).</text>
             <text>Eine neue Selection-API vereinfacht die Datenabfrage in der Controller-Schicht.</text>
+            <text>Falscher regulärer Ausdruck in der Date und Datetime-Validierung innerhalb von MOST behoben.</text>
             <text>Aktionen für Entitäten werden nun zentral gesammlt, zwecks einfacherer Erweiterung und Wiederverwendung.</text>
             <text>Bugfix zur korrekten Initialisierung eingehender m:n-Relationen.</text>
             <text>Bugfixes für User-Felder in Verbindung mit Tree-Wurzelknoten und Edit-Formularen.</text>
