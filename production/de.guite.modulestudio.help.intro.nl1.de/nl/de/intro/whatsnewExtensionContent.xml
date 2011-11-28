@@ -8,6 +8,7 @@
             <text>Eine neue Selection-API vereinfacht die Datenabfrage in der Controller-Schicht.</text>
             <text>Falscher regulärer Ausdruck in der Date und Datetime-Validierung innerhalb von MOST behoben.</text>
             <text>Aktionen für Entitäten werden nun zentral gesammlt, zwecks einfacherer Erweiterung und Wiederverwendung.</text>
+            <text>Neue Eigenschaft für Join-Relationships hinzugefügt um zwischen Repräsentationen mit normalen Dropdown-Listen und Auto Completion Feldern unterscheiden zu können.</text>
             <text>Bugfix zur korrekten Initialisierung eingehender m:n-Relationen.</text>
             <text>Bugfixes für User-Felder in Verbindung mit Tree-Wurzelknoten und Edit-Formularen.</text>
             <text>Für die Feldtypen datetime, date und time lässt sich nun auch now als Standardwert einstellen.</text>
