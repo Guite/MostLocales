@@ -12,6 +12,7 @@
             <text>Bugfixes für User-Felder in Verbindung mit Tree-Wurzelknoten und Edit-Formularen.</text>
             <text>Für die Feldtypen datetime, date und time lässt sich nun auch now als Standardwert einstellen.</text>
             <text>Die Validation Hooks in den Form Handlern wurden nun scharf gestellt (Fehler führen zum Abbruch).</text>
+            <text>Form Handler Refaktorisierung zur Auslagerung häufiger Code-Anteile in eine generische Elternklasse.</text>
             <text>Auch für individuelle Controller-Aktionen werden nun Templates generiert.</text>
             <text>Config-Variablen können nun auch Tooltips zur Dokumentation enthalten.</text>
             <text>Verwendung der Methode getOneOrNullResult zur Selektion einzelner Entitäten.</text>
