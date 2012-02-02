@@ -6,19 +6,22 @@
             <text>KML-Export-Funktionalität für Entitäten mit Geographical Extension.</text>
             <text>Float- und Decimal-Felder haben nun eine Eigenschaft um eine Zahl als Geldbetrag zu definieren.</text>
             <text>Speicherung von Attributen behoben, Feldnamen der Attribute in eigene Methode ausgelagert für einfachere Anpassung.</text>
-            <text>Installation von List Vars behoben durch Nutzung der Array-Serialisierung nur für Mehrfachlisten.</text>
+            <text>Installation von Listenvariablen behoben durch Nutzung der Array-Serialisierung nur für Mehrfachlisten.</text>
             <text>Für Listenfelder wird nun ein Wert von 0 erlaubt.</text>
             <text>Probleme mit der Erstellung von Wurzelknoten in Nested Sets, falls die Länge von Titel- oder Beschreibungsgfeldern zu klein ist, behoben.</text>
             <text>Definition und Behandlung von Many-to-Many Relationen behoben.</text>
+            <text>Weitere Reparaturen für die Behandlung von Relationen beim Editieren.</text>
+            <text>Bugfix beim Löschen von Entitäten mit optionalen Upload-Feldern.</text>
             <text>Abruf der Identifier-Feldliste in Delete Action behoben.</text>
             <text>Wiederholte Objekterstellung repariert.</text>
             <text>Modifier zur Anzeige von Listenfeldeinträgen behoben.</text>
             <text>Logischen Fehler in Validierungsmethode isStringNotContaining beseitigt.</text>
             <text>Nutzung von Gettext in JavaScript behoben.</text>
-            <text>Behandlung von Listenfeldern in Form Handlern behoben.</text>
+            <text>Behandlung von Listenfeldern in Form Handlern und im Ausgabe-Modifier behoben.</text>
             <text>Werte für precision und scale von Koordinatenfeldern behoben.</text>
             <text>Query zum Abruf verbundener Objekte während dem Editieren behoben.</text>
             <text>Validierung von String-Feldern mit regulären Ausdrücken repariert.</text>
+            <text>Viele kleinere Bugfixes.</text>
         </group>
         <group style-id="content-group" id="deguitemodulestudio-introLink-group054">
             <text>Import von XML-Tabellendefinitionen zur Migration bestehender Module. Siehe die Migration-Seite für weitere Informationen.</text>
