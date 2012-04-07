@@ -32,7 +32,8 @@
             <text>Validierung von String-Feldern mit regulären Ausdrücken repariert.</text>
             <text>Falsche Anwendung der Client-seitigen Validierung auf Eingabeknöpfe entfernt.</text>
             <text>Auch für Form-Plugins werden nun Base-Klassen generiert, für leichtere Erweiterbarkeit und Anpassbarkeit.</text>
-            <text>Viele kleinere Bugfixes und Refaktorisierungen (z. B. Nutzung des Request-Objektes).</text>
+            <text>Viele kleinere Bugfixes und Refaktorisierungen im Generator (z. B. Nutzung des Request-Objektes).</text>
+            <text>Die eigene Beautifier-Komponente wurde entfernt, da sie mehr Probleme als Nutzen verursacht hat.</text>
         </group>
         <group style-id="content-group" id="deguitemodulestudio-introLink-group054">
             <text>Import von XML-Tabellendefinitionen zur Migration bestehender Module. Siehe die Migration-Seite für weitere Informationen.</text>
