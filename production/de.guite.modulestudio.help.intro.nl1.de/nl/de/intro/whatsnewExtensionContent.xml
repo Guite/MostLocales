@@ -27,6 +27,7 @@
             <text>Behandlung von Listenfeldern in Form Handlern und im Ausgabe-Modifier behoben.</text>
             <text>Werte für precision und scale von Koordinatenfeldern behoben.</text>
             <text>In Zikula reservierte Variablen werden nun nicht nur bei Namen von Feldern, sondern auch bei Namen von Entitäten geprüft.</text>
+            <text>Für Einträge von Listenfeldern sind nun Leerzeichen erlaubt.</text>
             <text>Query zum Abruf verbundener Objekte während dem Editieren behoben.</text>
             <text>Validierung von String-Feldern mit regulären Ausdrücken repariert.</text>
             <text>Falsche Anwendung der Client-seitigen Validierung auf Eingabeknöpfe entfernt.</text>
