@@ -7,7 +7,7 @@
             <text>Float- und Decimal-Felder haben nun eine Eigenschaft um eine Zahl als Geldbetrag zu definieren.</text>
             <text>Es gibt jetzt zwei Eigenschaften für die Einstellung von Kaskaden, eine für jede Seite der Relation.</text>
             <text>In Display- und Edit-Seiten werden nun Zikula.UI.Panels benutzt, falls sie groß werden.</text>
-            <text>Aktionen in View und Display-Seiten werden nun mit Kontextmenüs präsentiert (ähnlich wie auf den Seiten zur Verwaltung von Bäumen).
+            <text>Aktionen in View und Display-Seiten werden nun mit Kontextmenüs präsentiert (ähnlich wie auf den Seiten zur Verwaltung von Bäumen).</text>
             <text>Speicherung von Attributen behoben, Feldnamen der Attribute in eigene Methode ausgelagert für einfachere Anpassung.</text>
             <text>Installation von Listenvariablen behoben durch Nutzung der Array-Serialisierung nur für Mehrfachlisten.</text>
             <text>Für Listenfelder wird nun ein Wert von 0 erlaubt.</text>
