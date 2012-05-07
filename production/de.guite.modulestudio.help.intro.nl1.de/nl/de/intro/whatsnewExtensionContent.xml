@@ -6,10 +6,14 @@
             <text>KML-Export-Funktionalität für Entitäten mit Geographical Extension.</text>
             <text>Float- und Decimal-Felder haben nun eine Eigenschaft um eine Zahl als Geldbetrag zu definieren.</text>
             <text>Es gibt jetzt zwei Eigenschaften für die Einstellung von Kaskaden, eine für jede Seite der Relation.</text>
+            <text>In Display- und Edit-Seiten werden nun Zikula.UI.Panels benutzt, falls sie groß werden.</text>
+            <text>Aktionen in View und Display-Seiten werden nun mit Kontextmenüs präsentiert (ähnlich wie auf den Seiten zur Verwaltung von Bäumen).
             <text>Speicherung von Attributen behoben, Feldnamen der Attribute in eigene Methode ausgelagert für einfachere Anpassung.</text>
             <text>Installation von Listenvariablen behoben durch Nutzung der Array-Serialisierung nur für Mehrfachlisten.</text>
             <text>Für Listenfelder wird nun ein Wert von 0 erlaubt.</text>
             <text>Wiederverwendung des Datentyps text für Textfelder.</text>
+            <text>Validierung von Upload-Dateierweiterungen behoben; diese Prüfung wird nun auch Client-seitig durchgeführt.</text>
+            <text>Upload-Felder können nun optional auch eine Maximalgröße haben.</text>
             <text>Probleme mit der Erstellung von Wurzelknoten in Nested Sets, falls die Länge von Titel- oder Beschreibungsgfeldern zu klein ist, behoben.</text>
             <text>Definition und Behandlung von Many-to-Many Relationen behoben.</text>
             <text>AutoComplete-Bugfixes für Many-to-Many und One-to-Many Relationen.</text>
