@@ -4,6 +4,7 @@
         <group style-id="content-group" id="deguitemodulestudio-introLink-group055">
             <text>Entitäten mit Geographical Extension zeigen nun eine Karte in display- und edit-Templates.</text>
             <text>KML-Export-Funktionalität für Entitäten mit Geographical Extension.</text>
+            <text>Beim Editieren von Entitäten mit Geographical Extension wird eine Karte zum Auswählen von Koordinaten bereitgestellt.</text>
             <text>Float- und Decimal-Felder haben nun eine Eigenschaft um eine Zahl als Geldbetrag zu definieren.</text>
             <text>Es gibt jetzt zwei Eigenschaften für die Einstellung von Kaskaden, eine für jede Seite der Relation.</text>
             <text>In Display- und Edit-Seiten werden nun Zikula.UI.Panels benutzt, falls sie groß werden.</text>
