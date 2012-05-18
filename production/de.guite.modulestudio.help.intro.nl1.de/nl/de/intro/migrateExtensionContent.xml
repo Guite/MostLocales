@@ -2,6 +2,8 @@
 <introContent>
     <extensionContent id="migrate-top-left" style="css/style.css" name="Migration Extension" path="migrate/@">
         <group style-id="content-group" id="deguitemodulestudio-introLink-group">
+              <text>Um ein Modell aus einer älteren Version zu öffnen, bitte alle Account-Controller und Search-Controller entfernen.</text>
+              <text></text>
               <text>Zur Erstellung eines Modells für ein bestehendes Legacy-Modul kann die folgende Prozedur befolgt werden.</text>
               <text>Als erstes hole die Datei pntablesToXML.php von https://github.com/zikula/core/tree/master/tools - dann benutze dieses Skript zur Migration der alten pntables.php Datei zu einer XML-Datei.</text>
               <text>In ModuleStudio verwende den Menüeintrag "Datei > XML-Tabellendefinition importieren", der einen Dateiauswahl-Dialog öffnet. Wähle die soeben erstellte XML-Datei. Als Ergebnis bekommt man ein neues Anwendungsmodell in der Datei MOST_output/yourmod.mostapp.</text>
