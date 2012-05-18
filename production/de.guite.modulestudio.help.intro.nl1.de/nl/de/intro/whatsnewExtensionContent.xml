@@ -7,6 +7,7 @@
             <text>Beim Editieren von Entitäten mit Geographical Extension wird eine Karte zum Auswählen von Koordinaten bereitgestellt.</text>
             <text>Float- und Decimal-Felder haben nun eine Eigenschaft um eine Zahl als Geldbetrag zu definieren.</text>
             <text>Es gibt jetzt zwei Eigenschaften für die Einstellung von Kaskaden, eine für jede Seite der Relation.</text>
+            <text>Integration für die Suche und das Your Account Panel.</text>
             <text>In Display- und Edit-Seiten werden nun Zikula.UI.Panels benutzt, falls sie groß werden.</text>
             <text>Aktionen in View und Display-Seiten werden nun mit Kontextmenüs präsentiert (ähnlich wie auf den Seiten zur Verwaltung von Bäumen).</text>
             <text>Quick Navigation Form für View Seiten hinzugefügt, dieses Formular erlaubt Filtern, Durchsuchen und Sortieren der Liste.</text>
@@ -42,6 +43,7 @@
             <text>Falsche Anwendung der Client-seitigen Validierung auf Eingabeknöpfe entfernt.</text>
             <text>Auch für Form-Plugins werden nun Base-Klassen generiert, für leichtere Erweiterbarkeit und Anpassbarkeit.</text>
             <text>Performance-Optimierungen für den ShortURL-Support.</text>
+            <text>Verwendung von Prepared Statements in den Repository-Klassen.</text>
             <text>Viele kleinere Bugfixes und Refaktorisierungen im Generator (z. B. Nutzung des Request-Objektes).</text>
             <text>Die eigene Beautifier-Komponente wurde entfernt, da sie mehr Probleme als Nutzen verursacht hat.</text>
             <text>Aktualisiert auf Eclipse 3.7.2 (Indigo SR2).</text>
