@@ -11,6 +11,9 @@
             <text>In Display- und Edit-Seiten werden nun Zikula.UI.Panels benutzt, falls sie groß werden.</text>
             <text>Aktionen in View und Display-Seiten werden nun mit Kontextmenüs präsentiert (ähnlich wie auf den Seiten zur Verwaltung von Bäumen).</text>
             <text>Quick Navigation Form für View Seiten hinzugefügt, dieses Formular erlaubt Filtern, Durchsuchen und Sortieren der Liste.</text>
+            <text>Ein neuer Content Type erlaubt die Darstellung eines bestimmten Objektes.</text>
+            <text>Optionaler Kategorienfilter für generischen Block und beide Content Types.</text>
+            <text>Grundlegende Scribite-Integration, im Moment für Xinha und TinyMCE.</text>
             <text>Speicherung von Attributen behoben, Feldnamen der Attribute in eigene Methode ausgelagert für einfachere Anpassung.</text>
             <text>Installation von Listenvariablen behoben durch Nutzung der Array-Serialisierung nur für Mehrfachlisten.</text>
             <text>Für Listenfelder wird nun ein Wert von 0 erlaubt.</text>
