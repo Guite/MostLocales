@@ -18,6 +18,7 @@
             <text>Installation von Listenvariablen behoben durch Nutzung der Array-Serialisierung nur für Mehrfachlisten.</text>
             <text>Für Listenfelder wird nun ein Wert von 0 erlaubt.</text>
             <text>Wiederverwendung des Datentyps text für Textfelder.</text>
+            <text>Die Funktion zur Entfernung von Waisen (orphan removal) ist nun auch für Many-to-Many-Beziehungen verfügbar (neben One-to-One und One-to-Many).</text>
             <text>Validierung von Upload-Dateierweiterungen behoben; diese Prüfung wird nun auch Client-seitig durchgeführt.</text>
             <text>Upload-Felder können nun optional auch eine Maximalgröße haben.</text>
             <text>Standardimplementierung für User Delete Event Listener.</text>
