@@ -30,6 +30,8 @@
       <import plugin="de.guite.modulestudio.metamodel" version="1.0.1" match="equivalent"/>
       <import plugin="de.guite.modulestudio.update" version="1.0.0" match="equivalent"/>
       <import plugin="org.zikula.modulestudio.generator" version="1.0.0" match="equivalent"/>
+      <import plugin="de.guite.modulestudio.mostdsl" version="1.0.0" match="equivalent"/>
+      <import plugin="de.guite.modulestudio.mostdsl.ui" version="1.0.0" match="equivalent"/>
    </requires>
 
    <plugin
@@ -127,5 +129,19 @@
          version="0.0.0"
          fragment="true"
          unpack="false"/>
+
+   <plugin
+         id="de.guite.modulestudio.mostdsl.nl1.de"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         fragment="true"/>
+
+   <plugin
+         id="de.guite.modulestudio.mostdsl.ui.nl1.de"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         fragment="true"/>
 
 </feature>
