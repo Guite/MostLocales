@@ -51,7 +51,7 @@
             <text>Verwendung von Prepared Statements in den Repository-Klassen.</text>
             <text>Viele kleinere Bugfixes und Refaktorisierungen im Generator (z. B. Nutzung des Request-Objektes).</text>
             <text>Die eigene Beautifier-Komponente wurde entfernt, da sie mehr Probleme als Nutzen verursacht hat.</text>
-            <text>Aktualisiert auf Eclipse 4.2 (Juno).</text>
+            <text>Aktualisiert auf Eclipse 4.2.1 (Juno SR1).</text>
             <text>Generator-Templates in neuer Sprache reimplementiert, bessere Performance.</text>
             <text>Textuelle Syntax eingeführt, bildet auch das neue Modelldateiformat.</text>
             <text>Validierungsregeln reimplementiert, Fehler und Warnungen nun auch mit deutscher Übersetzung.</text>
