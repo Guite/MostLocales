@@ -22,7 +22,7 @@
             <text>Validierung von Upload-Dateierweiterungen behoben; diese Prüfung wird nun auch Client-seitig durchgeführt.</text>
             <text>Upload-Felder können nun optional auch eine Maximalgröße haben.</text>
             <text>Standardimplementierung für User Delete Event Listener.</text>
-            <text>Display-Aktionen wurden für Ajax-Controller implementiert.</text>
+            <text>Display- und Edit-Aktionen wurden auch für Ajax-Controller implementiert.</text>
             <text>Permission Check Instanzen verbessert, so dass Berechtigungen nun auch für einzelne Einträge beachtet werden.</text>
             <text>Entitäten mit Tree-Extension zeigen nun auf den Detailseiten verwandte Einträge an (Eltern, Kinder, Nachbarn, etc.)</text>
             <text>Probleme mit der Erstellung von Wurzelknoten in Nested Sets, falls die Länge von Titel- oder Beschreibungsgfeldern zu klein ist, behoben.</text>
