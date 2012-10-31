@@ -13,6 +13,7 @@
             <text>Quick Navigation Form für View Seiten hinzugefügt, dieses Formular erlaubt Filtern, Durchsuchen und Sortieren der Liste.</text>
             <text>Ein neuer Content Type erlaubt die Darstellung eines bestimmten einzelnen Objektes.</text>
             <text>Optionaler Kategorienfilter für generischen Block und beide Content Types.</text>
+            <text>Möglichkeit zur Angabe eigener Templates in List-Block und List Content Type.</text>
             <text>Grundlegende Scribite-Integration, im Moment für Xinha und TinyMCE.</text>
             <text>Speicherung von Attributen behoben, Feldnamen der Attribute in eigene Methode ausgelagert für einfachere Anpassung.</text>
             <text>Installation von Listenvariablen behoben durch Nutzung der Array-Serialisierung nur für Mehrfachlisten.</text>
