@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <introContent>
     <extensionContent id="whatsnew-top-left" style="css/style.css" name="Was gibts Neues Extension" path="whatsnew/@">
-        <group style-id="content-group" id="deguitemodulestudio-introLink-group055">
+        <group style-id="content-group" id="deguitemodulestudio-introLink-group060">
             <text>Entitäten mit Geographical Extension zeigen nun eine Karte in display- und edit-Templates.</text>
             <text>KML-Export-Funktionalität für Entitäten mit Geographical Extension.</text>
             <text>Beim Editieren von Entitäten mit Geographical Extension wird eine Karte zum Auswählen von Koordinaten bereitgestellt.</text>
