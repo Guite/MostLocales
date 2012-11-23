@@ -7,6 +7,8 @@
             <text>Beim Editieren von Entitäten mit Geographical Extension wird eine Karte zum Auswählen von Koordinaten bereitgestellt.</text>
             <text>Float- und Decimal-Felder haben nun eine Eigenschaft um eine Zahl als Geldbetrag zu definieren.</text>
             <text>Es gibt jetzt zwei Eigenschaften für die Einstellung von Kaskaden, eine für jede Seite der Relation.</text>
+            <text>Die Behandlung von Relationen wurde mit Form-Plugins reimplementiert.</text>
+            <text>Die Behandlung von Relationen nutzt nun Dropdown-Listen per Standard. Die Verwendung von Auto-Completern ist immer noch möglich. Die Inline-Erstellung und -Bearbeitung verbundener Objekte funktioniert nur in Verbindung mit dem Auto Completion Ansatz.</text>
             <text>Integration für die Suche und das Your Account Panel.</text>
             <text>In Display- und Edit-Seiten werden nun Zikula.UI.Panels benutzt, falls sie groß werden.</text>
             <text>Aktionen in View und Display-Seiten werden nun mit Kontextmenüs präsentiert (ähnlich wie auf den Seiten zur Verwaltung von Bäumen).</text>
