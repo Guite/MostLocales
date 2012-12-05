@@ -10,6 +10,12 @@
             <text>Die Behandlung von Relationen wurde mit Form-Plugins reimplementiert.</text>
             <text>Die Behandlung von Relationen nutzt nun Dropdown-Listen per Standard. Die Verwendung von Auto-Completern ist immer noch möglich. Die Inline-Erstellung und -Bearbeitung verbundener Objekte funktioniert nur in Verbindung mit dem Auto Completion Ansatz.</text>
             <text>Integration für die Suche und das Your Account Panel.</text>
+            <text>Grundlegende Unterstützung für Workflows. Für jede Entität kann einer von drei vordefinierten Workflows ausgewählt und über unterschiedliche Einstellungsmöglichkeiten weiter angepasst werden. Mehr Informationen finden sich im Benutzerhandbuch.</text>
+            <text>Unterstützung für Pending Content Listener, Moderationsblock und Moderationspanel.</text>
+            <text>Massenbehandlung von Objekten auf View-Seiten im Admin-Bereich.</text>
+            <text>Unterstützung von Metadaten für das Tag-Modul.</text>
+            <text>Zeitstempel- und Datumsfelder können nun als Start bzw. Ende deklariert werden.</text>
+            <text>Automatische Archivierung, sofern Archiv und Enddatum vorhanden.</text>
             <text>In Display- und Edit-Seiten werden nun Zikula.UI.Panels benutzt, falls sie groß werden.</text>
             <text>Aktionen in View und Display-Seiten werden nun mit Kontextmenüs präsentiert (ähnlich wie auf den Seiten zur Verwaltung von Bäumen).</text>
             <text>Quick Navigation Form für View Seiten hinzugefügt, dieses Formular erlaubt Filtern, Durchsuchen und Sortieren der Liste.</text>
