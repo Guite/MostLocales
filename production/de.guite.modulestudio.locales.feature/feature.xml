@@ -32,6 +32,7 @@
       <import plugin="org.zikula.modulestudio.generator" version="1.0.0" match="equivalent"/>
       <import plugin="de.guite.modulestudio.mostdsl" version="1.0.0" match="equivalent"/>
       <import plugin="de.guite.modulestudio.mostdsl.ui" version="1.0.0" match="equivalent"/>
+      <import plugin="org.eclipse.xtext.gmf.glue" version="2.4.0" match="equivalent"/>
    </requires>
 
    <plugin
@@ -139,6 +140,13 @@
 
    <plugin
          id="de.guite.modulestudio.mostdsl.ui.nl1.de"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         fragment="true"/>
+
+   <plugin
+         id="org.eclipse.xtext.gmf.glue.nl1.de"
          download-size="0"
          install-size="0"
          version="0.0.0"
