@@ -4,3 +4,4 @@ Bundle-Name: %fragmentName
 Bundle-SymbolicName: org.eclipse.xtext.gmf.glue.nl1.de
 Bundle-Version: 1.0.0
 Fragment-Host: org.eclipse.xtext.gmf.glue;bundle-version="[2.4.0,2.5.0)"
+Bundle-Vendor: %providerName
