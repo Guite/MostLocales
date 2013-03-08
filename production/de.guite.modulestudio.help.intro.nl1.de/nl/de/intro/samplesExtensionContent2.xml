@@ -2,7 +2,7 @@
 <introContent>
   	<extensionContent id="samples-top-left" style="css/style.css" name="Beispiele2 Extension" path="samples/@">
 		<group style-id="content-group" id="deguitemodulestudio-introLink-group">
-       		<text>Man kann sie auf der Projekt-Homepage herunterladen.</text>
+       		<text>Sie sind im Verzeichnis examples in ModuleStudio enthalten. Man kann sie aber auch von https://github.com/Guite/MostExamples/ herunterladen.</text>
        	</group>
   	</extensionContent>
     <extensionContent id="samples-top-right" style="css/style.css" name="Beispiele2 Extension" path="samples/@">
