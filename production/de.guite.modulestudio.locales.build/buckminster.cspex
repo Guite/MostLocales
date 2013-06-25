@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cspecExtension
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:bc="http://www.eclipse.org/buckminster/Common-1.0"
+    xmlns="http://www.eclipse.org/buckminster/CSpec-1.0" componentType="eclipse.feature" version="1.0.0">
+    <dependencies>
+        <dependency name="org.eclipse.rcp" componentType="eclipse.feature"/>
+        <dependency name="de.guite.modulestudio.branding" componentType="osgi.bundle"/>
+    </dependencies>
+    <actions>
+        <!-- move p2 repository to final destination -->
+        <public name="finish.repository" actor="ant">
+            <actorProperties>
+                <property key="buildFile" value="build.xml" />
+                <property key="targets" value="finish.repository" />
+            </actorProperties>
+            <properties>
+                <property key="outputPath" value="/var/lib/jenkins/jobs/MOST-1_Prepare-9_Locales/workspace/output/de.guite.modulestudio.locales.build_1.0.0-eclipse.feature" />
+            </properties>
+            <products alias="destination">
+                <path path="dummy_output_locales/" />
+            </products>
+        </public>
+    </actions>
+</cspecExtension>
