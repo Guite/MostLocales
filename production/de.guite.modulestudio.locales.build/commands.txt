@@ -1,7 +1,7 @@
 # Commands for building a p2 site with these locale fragment bundles
 
 # materialise stuff by cquery/rmap
-resolve --properties "refProduct/bundles/de.guite.modulestudio.build/buckminster.properties" "scm/de.guite.modulestudio.locales.build/most.cquery"
+resolve --properties "refProduct/bundles/de.guite.modulestudio.build/buckminster.properties" "scm/production/de.guite.modulestudio.locales.build/most.cquery"
 
 # build workspace
 build
