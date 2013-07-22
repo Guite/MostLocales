@@ -51,7 +51,7 @@
     <locator searchPathRef="most.textual" pattern="^de\.guite\.modulestudio\.mostdsl(\..*)?" failOnError="false" />
     <locator searchPathRef="most.generator" pattern="^org\.zikula\.modulestudio\.generator(\..*)?" failOnError="false" />
     <locator searchPathRef="most.editors" pattern="^de\.guite\.modulestudio\.gmf(\..*)?" failOnError="false" />
-    <locator searchPathRef="most.editors" pattern="^org\.eclipse\.xtext\.gmf\.glue" />
+    <locator searchPathRef="most.editors" pattern="^org\.eclipse\.xtext\.gmf\.glue" failOnError="false" />
     <locator searchPathRef="most.help" pattern="^de\.guite\.modulestudio\.help(\..*)?" failOnError="false" />
     <locator searchPathRef="most.locales" pattern="^de\.guite\.modulestudio(\..+)?" failOnError="false" />
     <locator searchPathRef="most.locales" pattern="^org\.zikula\.modulestudio(\..+)?" failOnError="false" />
