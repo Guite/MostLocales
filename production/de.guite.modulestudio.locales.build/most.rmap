@@ -57,5 +57,5 @@
     <locator searchPathRef="most.locales" pattern="^org\.zikula\.modulestudio(\..+)?" failOnError="false" />
     <locator searchPathRef="most.locales" pattern="^org\.eclipse(\..+)?" failOnError="false" />
     <locator searchPathRef="most.product" pattern="^de\.guite\.modulestudio(\..+)?" />
-    <redirect href="../../../refProduct/bundles/de.guite.modulestudio.build/build/most_eclipse.rmap" />
+    <redirect href="../../refProduct/de.guite.modulestudio.build/builddeps.rmap" />
 </rmap>
