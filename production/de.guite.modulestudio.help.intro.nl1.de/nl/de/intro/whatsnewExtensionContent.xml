@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <introContent>
     <extensionContent id="whatsnew-top-left" style="css/style.css" name="Was gibts Neues Extension" path="whatsnew/@">
+        <group style-id="content-group" id="deguitemodulestudio-introLink-group061">
+            <text>Es können nun lediglich String Feldtypen als Permalink-Bestandteile (Sluggable Position) eingesetzt werden.</text>
+            <text>Der Standardwert für die Anzahl von für einen Modell-Container zu generierenden Beispieldatensätzen wurde auf 0 gesetzt.</text>
+            <text>Ein nicht benötigter und verwirrender Eintrag im Hauptmenü (File > Open File...) wurde versteckt.</text>
+            <text>Upload-Ordner werden nun bei Bedarf erstellt, falls sie noch nicht existieren (nötig wenn ein Modul verwendet wird, ohne dass es vorher installiert wurde, wie zum Beispiel bei der Nutzung von Seitenvorlagen in Multisites).</text>
+            <text>Eine Option hinzugefügt, um Permission-Checks bei der Nutzung von internen Aufrufen von view- und display-Aktionen zu überspringen.</text>
+            <text>Eine Option hinzugefügt, um die Validierung zu umgehen (nötig zum Beispiel für die automatische Archivierung von Objekten).</text>
+            <text>Der Generator erstellt auch ein Plugin für das Newsletter-Modul (neben dem Mailz-Plugin, welches bereits vorher vorhanden war).</text>
+            <text>Listen mit verbundenen Objekten in Quick Navigation Formularen werden nun per Standard sortiert.</text>
+            <text>Support für neue Event Handler in 1.3.6 hinzugefügt, um zu erkennen, wenn ein Modul aktiviert oder deaktiviert wird.</text>
+            <text>Jede Menge Bugfixes im Generator (für Details siehe die geschlossenen Tickets im MostGenerator-Projekt auf Github).</text>
+            <text>Aktualisiert auf Eclipse 4.3.0 (Kepler).</text>
+        </group>
         <group style-id="content-group" id="deguitemodulestudio-introLink-group060">
             <text>Eine neue Eigenschaft speichert den Anbieter einer Anwendung. Üblicherweise ist dies der Name einer Firma oder Institution.</text>      
             <text>Eine weitere neu Eigenschaft erlaubt die Angabe der gewünschten Core-Version. Der Standard ist 1.3.6, was das neue Forward Compatibility Layer einschließt. Eine andere mögliche Option ist 1.3.5 für Abwärtskompatibilität.</text>
