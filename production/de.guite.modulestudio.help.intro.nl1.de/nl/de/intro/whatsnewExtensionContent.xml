@@ -11,6 +11,7 @@
             <text>Der Generator erstellt auch ein Plugin für das Newsletter-Modul (neben dem Mailz-Plugin, welches bereits vorher vorhanden war).</text>
             <text>Listen mit verbundenen Objekten in Quick Navigation Formularen werden nun per Standard sortiert.</text>
             <text>Support für neue Event Handler in 1.3.6 hinzugefügt, um zu erkennen, wenn ein Modul aktiviert oder deaktiviert wird.</text>
+            <text>In Ajax-Controllern sind nun auch view-Aktionen erlaubt.</text>
             <text>Jede Menge Bugfixes im Generator (für Details siehe die geschlossenen Tickets im MostGenerator-Projekt auf Github).</text>
             <text>Aktualisiert auf Eclipse 4.3.0 (Kepler).</text>
         </group>
