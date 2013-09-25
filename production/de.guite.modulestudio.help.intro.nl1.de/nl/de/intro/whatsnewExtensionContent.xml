@@ -13,6 +13,7 @@
             <text>Support für neue Event Handler in 1.3.6 hinzugefügt, um zu erkennen, wenn ein Modul aktiviert oder deaktiviert wird.</text>
             <text>Namen von Datenbanktabellen beinhalten den Anbieter als Präfix in 1.3.6.</text>
             <text>In Ajax-Controllern sind nun auch view-Aktionen erlaubt.</text>
+            <text>Das Frontend für 1.3.6 Erweiterungen wurde auf Bootstrap umgestellt.</text>
             <text>Jede Menge Bugfixes im Generator (für Details siehe die geschlossenen Tickets im MostGenerator-Projekt auf Github).</text>
             <text>Aktualisiert auf Eclipse 4.3.0 (Kepler).</text>
         </group>
