@@ -2,13 +2,14 @@
 <introContent>
     <extensionContent id="whatsnew-top-left" style="css/style.css" name="Was gibts Neues Extension" path="whatsnew/@">
         <group style-id="content-group" id="deguitemodulestudio-introLink-group061">
+            <text>Ein neues Modellelement hinzugefügt, welches Generator-Einstellungen enthält. Damit lässt sich steuern, welche Features generiert werden sollen, und einige Verhaltensaspekte des Generators können beeinflusst werden.</text>
+            <text>Die Kurzdarstellung von Entitäten kann nun durch ein Anzeigemuster frei im Modell bestimmt werden. Das leading-Flag wurde im selben Schritt als veraltet markiert.</text>
+            <text>Spracheigenschaft zur Kontrolle der Sortierung für die eingehende Quellseite von many-to-many Beziehungen hinzugefügt.</text>
             <text>Es können nun lediglich String Feldtypen als Permalink-Bestandteile (Sluggable Position) eingesetzt werden.</text>
             <text>Der Standardwert für die Anzahl von für einen Modell-Container zu generierenden Beispieldatensätzen wurde auf 0 gesetzt.</text>
             <text>Ein nicht benötigter und verwirrender Eintrag im Hauptmenü (File > Open File...) wurde versteckt.</text>
             <text>Upload-Ordner werden nun bei Bedarf erstellt, falls sie noch nicht existieren (nötig wenn ein Modul verwendet wird, ohne dass es vorher installiert wurde, wie zum Beispiel bei der Nutzung von Seitenvorlagen in Multisites).</text>
-            <text>Die Kurzdarstellung von Entitäten kann nun durch ein Anzeigemuster frei im Modell bestimmt werden. Das leading-Flag wurde im selben Schritt als veraltet markiert.</text>
-            <text>Spracheigenschaft zur Kontrolle der Sortierung für die eingehende Quellseite von many-to-many Beziehungen hinzugefügt.</text>
-            <text>Eine Option hinzugefügt, um die Validierung zu umgehen (nötig zum Beispiel für die automatische Archivierung von Objekten).</text>
+            <text>Eine Option hinzugefügt, um die Validierung einer Entität zu umgehen (nötig zum Beispiel für die automatische Archivierung von Objekten).</text>
             <text>Der Generator erstellt auch ein Plugin für das Newsletter-Modul (neben dem Mailz-Plugin, welches bereits vorher vorhanden war).</text>
             <text>Listen mit verbundenen Objekten in Quick Navigation Formularen werden nun per Standard sortiert.</text>
             <text>Support für neue Event Handler in 1.3.6 hinzugefügt, um zu erkennen, wenn ein Modul aktiviert oder deaktiviert wird.</text>
