@@ -3,9 +3,7 @@
 # materialise stuff by cquery/rmap
 resolve --properties "refProduct/de.guite.modulestudio.build/buckminster.properties" "scm/production/de.guite.modulestudio.locales.build/most.cquery"
 
-# build workspace
-build
-#build --thorough
+build --clean
 
 # build feature p2 repository
 perform --properties "refProduct/de.guite.modulestudio.build/buckminster.properties" "de.guite.modulestudio.locales.build#site.p2"
