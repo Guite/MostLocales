@@ -73,5 +73,5 @@
 
     <locator searchPathRef="most.product" pattern="^de\.guite\.modulestudio(\..+)?" />
 
-    <redirect href="./../../refProduct/de.guite.modulestudio.build/builddeps.rmap" />
+    <redirect href="./../../../refProduct/de.guite.modulestudio.build/builddeps.rmap" />
 </rmap>
