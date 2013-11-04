@@ -3,6 +3,7 @@
     <extensionContent id="whatsnew-top-left" style="css/style.css" name="Was gibts Neues Extension" path="whatsnew/@">
         <group style-id="content-group" id="deguitemodulestudio-introLink-group061">
             <text>Ein neues Modellelement hinzugefügt, welches Generator-Einstellungen enthält. Damit lässt sich steuern, welche Features generiert werden sollen, und einige Verhaltensaspekte des Generators können beeinflusst werden.</text>
+            <text>Neue Ziel-Coreversion "pre14" für die neue Symfony-basierte Modulstruktur hinzugefügt. Dies ersetzt die Version 1.3.6, welche sich nun genauso wie 1.3.5 verhält.</text>
             <text>Die Kurzdarstellung von Entitäten kann nun durch ein Anzeigemuster frei im Modell bestimmt werden. Das leading-Flag wurde im selben Schritt als veraltet markiert.</text>
             <text>Spracheigenschaft zur Kontrolle der Sortierung für die eingehende Quellseite von many-to-many Beziehungen hinzugefügt.</text>
             <text>Es können nun lediglich String Feldtypen als Permalink-Bestandteile (Sluggable Position) eingesetzt werden.</text>
