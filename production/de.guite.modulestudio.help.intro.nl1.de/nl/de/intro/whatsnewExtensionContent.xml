@@ -20,6 +20,7 @@
             <text>Das Frontend für 1.3.7 Erweiterungen wurde auf Bootstrap umgestellt.</text>
             <text>Falsche Längenberechnung bei Validierung der Tabellengrößen behoben.</text>
             <text>Fehlende Validierung hinzugefügt, um sicherzustellen, dass Eins-zu-Eins-Beziehungen, die auf eine Entität mit Soft-Deleteable zielen, eine Remove-Kaskade haben.</text>
+            <text>Fehlende Validierung hinzugefügt für Sortable-Group, die auch eine Sortable-Position benötigt.</text>
             <text>Jede Menge Bugfixes im Generator (für Details siehe die geschlossenen Tickets im MostGenerator-Projekt auf Github).</text>
             <text>Aktualisiert auf Eclipse 4.3.1 (Kepler).</text>
         </group>
