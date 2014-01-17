@@ -63,7 +63,7 @@
     </searchPath>
 
     <locator searchPathRef="local-sources" failOnError="false" />
-
+<!-- 
     <locator searchPathRef="most.metamodel" pattern="^de\.guite\.modulestudio\.metamodel(\..*)?" />
     <locator searchPathRef="most.textual" pattern="^de\.guite\.modulestudio\.mostdsl(\..*)?" />
     <locator searchPathRef="most.generator" pattern="^org\.zikula\.modulestudio\.generator(\..*)?" />
@@ -74,4 +74,6 @@
     <locator searchPathRef="most.product" pattern="^de\.guite\.modulestudio(\..+)?" />
 
     <redirect href="./../../../refProduct/de.guite.modulestudio.build/builddeps.rmap" />
+-->
+    <redirect href="./../../../refProduct/de.guite.modulestudio.build/build.rmap" />
 </rmap>
