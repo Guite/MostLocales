@@ -13,67 +13,7 @@
         </provider>
     </searchPath>
 
-    <searchPath name="most.metamodel">
-        <provider readerType="local" componentTypes="eclipse.feature,osgi.bundle,buckminster" mutable="false">
-            <uri format="{0}/refMetaModel/{1}">
-                <bc:propertyRef key="projects.location" />
-                <bc:propertyRef key="buckminster.component" />
-            </uri>
-        </provider>
-    </searchPath>
-    <searchPath name="most.textual">
-        <provider readerType="local" componentTypes="eclipse.feature,osgi.bundle,buckminster" mutable="false">
-            <uri format="{0}/refTextual/{1}">
-                <bc:propertyRef key="projects.location" />
-                <bc:propertyRef key="buckminster.component" />
-            </uri>
-        </provider>
-    </searchPath>
-    <searchPath name="most.generator">
-        <provider readerType="local" componentTypes="eclipse.feature,osgi.bundle,buckminster" mutable="false">
-            <uri format="{0}/refGenerator/{1}">
-                <bc:propertyRef key="projects.location" />
-                <bc:propertyRef key="buckminster.component" />
-            </uri>
-        </provider>
-    </searchPath>
-    <searchPath name="most.editors">
-        <provider readerType="local" componentTypes="eclipse.feature,osgi.bundle,buckminster" mutable="false">
-            <uri format="{0}/refEditors/{1}">
-                <bc:propertyRef key="projects.location" />
-                <bc:propertyRef key="buckminster.component" />
-            </uri>
-        </provider>
-    </searchPath>
-    <searchPath name="most.help">
-        <provider readerType="local" componentTypes="eclipse.feature,osgi.bundle,buckminster" mutable="false">
-            <uri format="{0}/refHelp/{1}">
-                <bc:propertyRef key="projects.location" />
-                <bc:propertyRef key="buckminster.component" />
-            </uri>
-        </provider>
-    </searchPath>
-    <searchPath name="most.product">
-        <provider readerType="local" componentTypes="eclipse.feature,osgi.bundle,buckminster" mutable="false">
-            <uri format="{0}/refProduct/{1}">
-                <bc:propertyRef key="projects.location" />
-                <bc:propertyRef key="buckminster.component" />
-            </uri>
-        </provider>
-    </searchPath>
-
     <locator searchPathRef="local-sources" failOnError="false" />
-<!-- 
-    <locator searchPathRef="most.metamodel" pattern="^de\.guite\.modulestudio\.metamodel(\..*)?" />
-    <locator searchPathRef="most.textual" pattern="^de\.guite\.modulestudio\.mostdsl(\..*)?" />
-    <locator searchPathRef="most.generator" pattern="^org\.zikula\.modulestudio\.generator(\..*)?" />
-    <locator searchPathRef="most.editors" pattern="^de\.guite\.modulestudio\.gmf(\..*)?" />
-    <locator searchPathRef="most.editors" pattern="^org\.eclipse\.xtext\.gmf\.glue" />
-    <locator searchPathRef="most.help" pattern="^de\.guite\.modulestudio\.help(\..*)?" />
 
-    <locator searchPathRef="most.product" pattern="^de\.guite\.modulestudio(\..+)?" />
-
-    <redirect href="./../../../refProduct/de.guite.modulestudio.build/builddeps.rmap" />
--->
     <redirect href="./../../../refProduct/de.guite.modulestudio.build/build.rmap" />
 </rmap>
