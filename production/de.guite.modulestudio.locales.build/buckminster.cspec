@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cs:cspec xmlns:cs="http://www.eclipse.org/buckminster/CSpec-1.0" name="de.guite.modulestudio.locales.build" componentType="buckminster" version="1.0.0">
+    <cs:dependencies>
+        <cs:dependency name="de.guite.modulestudio.gmf.controller" componentType="osgi.bundle"/>
+        <cs:dependency name="de.guite.modulestudio.gmf.cust" componentType="osgi.bundle"/>
+        <cs:dependency name="de.guite.modulestudio.gmf.main" componentType="osgi.bundle"/>
+        <cs:dependency name="de.guite.modulestudio.gmf.model" componentType="osgi.bundle"/>
+        <cs:dependency name="de.guite.modulestudio.help" componentType="osgi.bundle"/>
+        <cs:dependency name="de.guite.modulestudio.help.cheatsheets" componentType="osgi.bundle"/>
+        <cs:dependency name="de.guite.modulestudio.help.intro" componentType="osgi.bundle"/>
+        <cs:dependency name="de.guite.modulestudio.metamodel" componentType="osgi.bundle"/>
+        <cs:dependency name="de.guite.modulestudio.metamodel.edit" componentType="osgi.bundle"/>
+        <cs:dependency name="de.guite.modulestudio.mostdsl" componentType="osgi.bundle"/>
+        <cs:dependency name="de.guite.modulestudio.mostdsl.ui" componentType="osgi.bundle"/>
+        <cs:dependency name="de.guite.modulestudio.mostdsl.ui.importer" componentType="osgi.bundle"/>
+        <cs:dependency name="de.guite.modulestudio.update" componentType="osgi.bundle"/>
+        <cs:dependency name="org.eclipse.xtext.gmf.glue" componentType="osgi.bundle"/>
+        <cs:dependency name="org.zikula.modulestudio.generator" componentType="osgi.bundle"/>
+    </cs:dependencies>
+</cs:cspec>
