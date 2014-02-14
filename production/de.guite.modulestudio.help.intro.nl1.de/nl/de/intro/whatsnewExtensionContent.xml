@@ -13,11 +13,11 @@
             <text>Eine Option hinzugefügt, um die Validierung einer Entität zu umgehen (nötig zum Beispiel für die automatische Archivierung von Objekten).</text>
             <text>Der Generator erstellt auch ein Plugin für das Newsletter-Modul (neben dem Mailz-Plugin, welches bereits vorher vorhanden war).</text>
             <text>Listen mit verbundenen Objekten in Quick Navigation Formularen werden nun per Standard sortiert.</text>
-            <text>Support für neue Event Handler in 1.3.7 hinzugefügt, um zu erkennen, wenn ein Modul aktiviert oder deaktiviert wird.</text>
-            <text>In 1.3.7 werden Event Handler nicht mehr in der Datenbank, sondern über Dependency Injection verwaltet.</text>
-            <text>Namen von Datenbanktabellen beinhalten den Anbieter als Präfix in 1.3.7.</text>
+            <text>Support für neue Event Handler in 1.4.0 hinzugefügt, um zu erkennen, wenn ein Modul aktiviert oder deaktiviert wird.</text>
+            <text>In 1.4.0 werden Event Handler nicht mehr in der Datenbank, sondern über Dependency Injection verwaltet.</text>
+            <text>Namen von Datenbanktabellen beinhalten den Anbieter als Präfix in 1.4.0.</text>
             <text>In Ajax-Controllern sind nun auch view-Aktionen erlaubt.</text>
-            <text>Das Frontend für 1.3.7 Erweiterungen wurde auf Bootstrap umgestellt.</text>
+            <text>Das Frontend für 1.4.0 Erweiterungen wurde auf Bootstrap umgestellt.</text>
             <text>Falsche Längenberechnung bei Validierung der Tabellengrößen behoben.</text>
             <text>Fehlende Validierung hinzugefügt, um sicherzustellen, dass Eins-zu-Eins-Beziehungen, die auf eine Entität mit Soft-Deleteable zielen, eine Remove-Kaskade haben.</text>
             <text>Fehlende Validierung hinzugefügt für Sortable-Group, die auch eine Sortable-Position benötigt.</text>
