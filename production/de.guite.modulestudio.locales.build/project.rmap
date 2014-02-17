@@ -14,7 +14,7 @@
         </provider>
     </searchPath>
 
-    <locator searchPathRef="local-sources" failOnError="false" />
+    <locator searchPathRef="local.sources" failOnError="false" />
 
     <redirect href="./../../../refProduct/de.guite.modulestudio.build/build.rmap" />
 </rmap>
