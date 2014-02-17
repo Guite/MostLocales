@@ -4,8 +4,9 @@
 
     <property key="projects.location" value="${workspace.root}" />
     
-    <searchPath name="local-sources">
+    <searchPath name="local.sources">
         <provider readerType="local" componentTypes="eclipse.feature,osgi.bundle,buckminster" mutable="false">
+            <property key="buckminster.mutable" value="false" />
             <uri format="{0}/scm/production/{1}">
                 <bc:propertyRef key="projects.location" />
                 <bc:propertyRef key="buckminster.component" />
