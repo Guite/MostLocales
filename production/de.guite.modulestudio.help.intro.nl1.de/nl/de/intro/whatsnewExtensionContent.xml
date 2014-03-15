@@ -2,7 +2,7 @@
 <introContent>
     <extensionContent id="whatsnew-top-left" style="css/style.css" name="Was gibts Neues Extension" path="whatsnew/@">
         <group style-id="content-group" id="deguitemodulestudio-introLink-group062">
-            <text>0.6.2 news...</text>
+            <text>Suchintegration auf neue Helper-Klasse in 1.4.0 umgestellt.</text>
         </group>
         <group style-id="content-group" id="deguitemodulestudio-introLink-group061">
             <text>Ein neues Modellelement hinzugefügt, welches Generator-Einstellungen enthält. Damit lässt sich steuern, welche Features generiert werden sollen, und einige Verhaltensaspekte des Generators können beeinflusst werden.</text>
