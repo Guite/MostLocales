@@ -2,6 +2,7 @@
 <introContent>
     <extensionContent id="whatsnew-top-left" style="css/style.css" name="Was gibts Neues Extension" path="whatsnew/@">
         <group style-id="content-group" id="deguitemodulestudio-introLink-group062">
+            <text>In 1.4.0 werden Statusnachrichten nicht mehr mit LogUtil, sondern mit Symfony FlashBags umgesetzt (#512).</text>
             <text>Client-seitiges Geocoding verwendet nun eine Callback-Funktion, um Anpassungen innerhalb der Edit-Templates zu vereinfachen (#507).</text>
             <text>Eine neue Eigenschaft dbName für Entity-Felder erlaubt die unterschiedliche Benennung von Feld und Datenbankspalte (#489).</text>
             <text>Array-Felder können für 1.4.0 konfiguriert werden als array, simple array und json array (#488).</text>
