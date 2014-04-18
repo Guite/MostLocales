@@ -2,6 +2,8 @@
 <introContent>
     <extensionContent id="whatsnew-top-left" style="css/style.css" name="Was gibts Neues Extension" path="whatsnew/@">
         <group style-id="content-group" id="deguitemodulestudio-introLink-group062">
+            <text>In 1.4.0 wird die Symfony Validator-Komponente an Stelle von selbstgeschriebenen Validierungsmethoden verwendet.</text>
+            <text>Neue Optionen im Model-Editor hinzugefügt, um zusätzliche, in Symfony verfügbare Validierungsregeln spezifizieren zu können.</text>
             <text>In 1.4.0 werden Statusnachrichten nicht mehr mit LogUtil, sondern mit Symfony FlashBags umgesetzt (#512).</text>
             <text>Client-seitiges Geocoding verwendet nun eine Callback-Funktion, um Anpassungen innerhalb der Edit-Templates zu vereinfachen (#507).</text>
             <text>Eine neue Eigenschaft dbName für Entity-Felder erlaubt die unterschiedliche Benennung von Feld und Datenbankspalte (#489).</text>
