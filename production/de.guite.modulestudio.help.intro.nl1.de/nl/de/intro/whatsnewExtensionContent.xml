@@ -2,6 +2,7 @@
 <introContent>
     <extensionContent id="whatsnew-top-left" style="css/style.css" name="Was gibts Neues Extension" path="whatsnew/@">
         <group style-id="content-group" id="deguitemodulestudio-introLink-group062">
+            <text>Die generierten Event Subscriber wurden an für 1.4.0 angepasst. Support für veraltete Events wurde entfernt, neue Symfony Events wurden aufgenommen.</text>
             <text>Anwendungen für Zikula 1.4.0 nutzen jetzt den Dependency Injection Container von Symfony.</text>
             <text>Das Routing in 1.4.0 Modulen wurde auf Symfony umgestellt unter Nutzung von Annotationen. Dies ersetzt die URL Route Klassen und encodeurl/decodeurl Methoden, die zuvor generiert wurden.</text>
             <text>Die Controller-Struktur wurde reorganisiert: nun existiert ein Controller für jede Entität. Dies wurde als Vorbereitung für die Migration zu Symfony Routing getan, macht aber auch die Controller-Methoden prägnanter und erleichtert Anpassungen durch Overriding.</text>
