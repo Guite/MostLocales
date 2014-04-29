@@ -2,6 +2,7 @@
 <introContent>
     <extensionContent id="whatsnew-top-left" style="css/style.css" name="Was gibts Neues Extension" path="whatsnew/@">
         <group style-id="content-group" id="deguitemodulestudio-introLink-group062">
+            <text>Wenn keine Filter gesetzt sind, wird die aktuelle Seite in Listenansichten in der Session vermerkt (#548).</text>
             <text>Anwendungen für 1.4.0 unterstützen Monolog Logger sowie die Symfony Komponenten Filesystem and Finder (#546).</text>
             <text>Die generierten Event Subscriber wurden an für 1.4.0 angepasst. Support für veraltete Events wurde entfernt, Support für Symfony Kernel-Events wurde aufgenommen (#544).</text>
             <text>Anwendungen für Zikula 1.4.0 nutzen jetzt den Dependency Injection Container von Symfony (#535).</text>
