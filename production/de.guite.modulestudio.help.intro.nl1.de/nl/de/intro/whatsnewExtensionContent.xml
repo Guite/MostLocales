@@ -2,6 +2,7 @@
 <introContent>
     <extensionContent id="whatsnew-top-left" style="css/style.css" name="Was gibts Neues Extension" path="whatsnew/@">
         <group style-id="content-group" id="deguitemodulestudio-introLink-group062">
+            <text>Grundlegende Unterstützung für Cache-Annotationen für 1.4.0 Apps hinzugefügt (#567).</text>
             <text>Die Struktur der Entity-Klassen wurde für 1.4.0 refaktorisiert für einfacheres Überschreiben von außerhalb des Moduls mit Service-Parametern (#565).</text>
             <text>Display- und Delete-Aktionen nutzen die ParamConverter-Annotation zur Objektselektion in 1.4.0 (#563).</text>
             <text>Wenn keine Filter gesetzt sind, wird die aktuelle Seite in Listenansichten in der Session vermerkt (#548).</text>
