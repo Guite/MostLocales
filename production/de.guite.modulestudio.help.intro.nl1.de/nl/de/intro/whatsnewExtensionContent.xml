@@ -2,6 +2,7 @@
 <introContent>
     <extensionContent id="whatsnew-top-left" style="css/style.css" name="Was gibts Neues Extension" path="whatsnew/@">
         <group style-id="content-group" id="deguitemodulestudio-introLink-group062">
+            <text>An passenden Stellen werden Avatare der Benutzer angezeigt (#607).</text>
             <text>Entitäten mit einem anderen Workflow als NONE erlauben die Auswahl von Benutzergruppen für die Moderation auf den generierten Konfigurationsseiten. Benachrichtigungen per E-Mail werden zwischen dem Ersteller und Moderatoren bei Zustandsänderungen versendet (#570).</text>
             <text>Neue DSL-Eigenschaft zu Entitäten und Benutzerfeldern hinzugefügt (onAccountDeletion), um zu kontrollieren, wie eine App reagieren soll, wenn Benutzer gelöscht werden (#284).</text>
             <text>Die folgenden obsoleten Eigenschaften wurden aus der DSL entfernt: Application#modelPath, Application#targetCoreVersion, DerivedField#leading.</text>
