@@ -25,7 +25,7 @@
             <text>Eine neue Eigenschaft dbName für Entity-Felder erlaubt die unterschiedliche Benennung von Feld und Datenbankspalte (#489).</text>
             <text>Array-Felder können für 1.4.0 konfiguriert werden als array, simple array und json array (#488).</text>
             <text>Neue Generator-Einstellung zur Markierung generierter Dateien mit speziellen Dateinamen (*.generated.*) hinzugefügt (#497).</text>
-            <text>ics (iCalendar) Templates für Entities mit Start- und Enddatum hinzugefügt (#509).</text>
+            <text>ics (iCalendar) Templates für Entitäten mit Start- und Enddatum hinzugefügt (#509).</text>
             <text>Suchintegration auf neue Helper-Klasse in 1.4.0 umgestellt (#503).</text>
             <text>Aktualisiert auf Eclipse 4.4 (Luna).</text>
         </group>
