@@ -27,7 +27,7 @@
             <text>Neue Generator-Einstellung zur Markierung generierter Dateien mit speziellen Dateinamen (*.generated.*) hinzugefügt (#497).</text>
             <text>ics (iCalendar) Templates für Entities mit Start- und Enddatum hinzugefügt (#509).</text>
             <text>Suchintegration auf neue Helper-Klasse in 1.4.0 umgestellt (#503).</text>
-            <text>Aktualisiert auf Eclipse 4.4 (Juno).</text>
+            <text>Aktualisiert auf Eclipse 4.4 (Luna).</text>
         </group>
         <group style-id="content-group" id="deguitemodulestudio-introLink-group061">
             <text>Ein neues Modellelement hinzugefügt, welches Generator-Einstellungen enthält. Damit lässt sich steuern, welche Features generiert werden sollen, und einige Verhaltensaspekte des Generators können beeinflusst werden.</text>
