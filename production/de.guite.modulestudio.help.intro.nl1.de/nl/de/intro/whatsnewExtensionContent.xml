@@ -2,6 +2,7 @@
 <introContent>
     <extensionContent id="whatsnew-top-left" style="css/style.css" name="Was gibts Neues Extension" path="whatsnew/@">
         <group style-id="content-group" id="deguitemodulestudio-introLink-group070">
+            <text>Action Handler, Action Events und Transitions aus Controller-Layer entfernt.</text>
             <text>DSL-Eigenschaften für View-Layer, Event Listener und Transform-Objekte entfernt.</text>
         </group>
         <group style-id="content-group" id="deguitemodulestudio-introLink-group062">
