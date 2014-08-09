@@ -2,6 +2,7 @@
 <introContent>
     <extensionContent id="whatsnew-top-left" style="css/style.css" name="Was gibts Neues Extension" path="whatsnew/@">
         <group style-id="content-group" id="deguitemodulestudio-introLink-group070">
+            <text>DSL-Eigenschaften für View-Layer, Event Listener und Transform-Objekte entfernt.</text>
         </group>
         <group style-id="content-group" id="deguitemodulestudio-introLink-group062">
             <text>An passenden Stellen werden Avatare der Benutzer angezeigt (#607).</text>
