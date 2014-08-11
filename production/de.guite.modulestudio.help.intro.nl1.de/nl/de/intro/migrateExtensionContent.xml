@@ -2,14 +2,19 @@
 <introContent>
     <extensionContent id="migrate-top-left" style="css/style.css" name="Migration Extension" path="migrate/@">
         <group style-id="content-group" id="deguitemodulestudio-introLink-group">
-              <text>Um ein Modell aus einer älteren Version zu öffnen, bitte alle Account-Controller und Search-Controller entfernen.</text>
-              <text>Anschließend kann das bestehende Modell über den Menüeintrag "Datei > Altes Modell aus 0.5.x migrieren" umgewandelt werden.</text>
-              <text></text>
-              <text>Zur Erstellung eines Modells für ein bestehendes Legacy-Modul kann die folgende Prozedur befolgt werden.</text>
-              <text>Als erstes hole die Datei pntablesToXML.php von https://github.com/zikula/core/tree/master/tools - dann benutze dieses Skript zur Migration der alten pntables.php Datei zu einer XML-Datei.</text>
-              <text>In ModuleStudio verwende den Menüeintrag "Datei > XML-Tabellendefinition importieren", der einen Dateiauswahl-Dialog öffnet. Wähle die soeben erstellte XML-Datei. Als Ergebnis bekommt man ein neues Anwendungsmodell in der Datei MOST_output/yourmod.mostapp.</text>
-              <text>Nun verwende "Datei > Diagramm-Datei initialisieren" um dieses Anwendungsmodell zu öffnen und erstellen und eine neue Diagrammdatei dafür zu erstellen.</text>
-              <text>Im Dateneditor entferne unbenötigte Elemente, wie Tabellenpräfixe und Standard ID-Felder wie Primär- und Fremdschlüssel. Befolge die Validierungshinweise um die verbleibenden Dinge zu korrigieren.</text>
+            <text>Zum Öffnen eines Modells aus 0.6.x lösche die .mostdiagram-Datei und öffne die .mostapp-Datei in einem Texteditor.</text>
+            <text>Scrolle nach unten und entferne sowohl die "viewLayer"-Sektion als auch die "processViews"-Zeile in allen "controllerContainer"-Elementen.</text>
+            <text>Nach dem Speichern der Datei verwende "Datei -> Diagrammdatei initialisieren" in ModuleStudio.</text>
+            <text>Wähle die .mostapp-Datei im Assistenten aus und klicke auf "weiter", danach auf "fertig".</text>
+            <text></text>
+            <text>Um ein Modell aus einer älteren Version zu öffnen, bitte alle Account-Controller und Search-Controller entfernen.</text>
+            <text>Anschließend kann das bestehende Modell über den Menüeintrag "Datei > Altes Modell aus 0.5.x migrieren" umgewandelt werden.</text>
+            <text></text>
+            <text>Zur Erstellung eines Modells für ein bestehendes Legacy-Modul kann die folgende Prozedur befolgt werden.</text>
+            <text>Als erstes hole die Datei pntablesToXML.php von https://github.com/zikula/core/tree/master/tools - dann benutze dieses Skript zur Migration der alten pntables.php Datei zu einer XML-Datei.</text>
+            <text>In ModuleStudio verwende den Menüeintrag "Datei > XML-Tabellendefinition importieren", der einen Dateiauswahl-Dialog öffnet. Wähle die soeben erstellte XML-Datei. Als Ergebnis bekommt man ein neues Anwendungsmodell in der Datei MOST_output/yourmod.mostapp.</text>
+            <text>Nun verwende "Datei > Diagramm-Datei initialisieren" um dieses Anwendungsmodell zu öffnen und erstellen und eine neue Diagrammdatei dafür zu erstellen.</text>
+            <text>Im Dateneditor entferne unbenötigte Elemente, wie Tabellenpräfixe und Standard ID-Felder wie Primär- und Fremdschlüssel. Befolge die Validierungshinweise um die verbleibenden Dinge zu korrigieren.</text>
         </group>
     </extensionContent>
     <extensionContent id="migrate-top-right" style="css/style.css" name="Migration Extension" path="migrate/@">
