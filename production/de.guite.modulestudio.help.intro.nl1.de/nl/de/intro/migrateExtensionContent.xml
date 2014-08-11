@@ -5,6 +5,7 @@
             <text>Zum Öffnen eines Modells aus 0.6.x lösche die .mostdiagram-Datei und öffne die .mostapp-Datei in einem Texteditor.</text>
             <text>Scrolle nach unten und entferne sowohl die "viewLayer"-Sektion als auch alle "defaultDataSource"-Zeilen.</text>
             <text>Entferne alle "controllerLayer"- und "controllerContainer"-Elemente, so dass die Anwendung direkt "controllers" enthält.</text>
+            <text>Entferne alle Vorkommen der Eigenschaft "numExampleRows" (ist nun eine Generator-Einstellung namens "amountOfExampleRows").</text>
             <text>Nach dem Speichern der Datei verwende "Datei -> Diagrammdatei initialisieren" in ModuleStudio 0.7.0.</text>
             <text>Wähle die .mostapp-Datei im Assistenten aus und klicke auf "weiter", danach auf "fertig".</text>
             <text></text>
