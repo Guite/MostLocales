@@ -24,7 +24,6 @@
       <import plugin="de.guite.modulestudio.gmf.cust" version="1.0.0" match="equivalent"/>
       <import plugin="de.guite.modulestudio.gmf.main" version="1.0.0" match="equivalent"/>
       <import plugin="de.guite.modulestudio.gmf.model" version="1.0.0" match="equivalent"/>
-      <import plugin="de.guite.modulestudio.gmf.controller" version="1.0.0" match="equivalent"/>
       <import plugin="de.guite.modulestudio.help.cheatsheets" version="1.0.0" match="equivalent"/>
       <import plugin="de.guite.modulestudio.help.intro" version="1.0.0" match="equivalent"/>
       <import plugin="de.guite.modulestudio.help" version="1.0.0" match="equivalent"/>
@@ -64,14 +63,6 @@
 
    <plugin
          id="de.guite.modulestudio.gmf.model.nl1.de"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         fragment="true"
-         unpack="false"/>
-
-   <plugin
-         id="de.guite.modulestudio.gmf.controller.nl1.de"
          download-size="0"
          install-size="0"
          version="0.0.0"
