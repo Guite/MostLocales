@@ -2,9 +2,9 @@
 <compositeCheatsheet name="ModuleStudio Cheatsheet">
    <taskGroup kind="sequence" name="Software auf einfachem Wege bauen" skip="false">
       <intro>
-         <description>
+         &lt;description&gt;
              Dieses Cheatsheet ist ein Tutorial, das die Erstellung von Anwendungen mit ModuleStudio demonstriert.
-         </description>
+         &lt;/description&gt;
       </intro>
       <onCompletion>
          Nun existiert eine komplette Anwendung durch die einfache Benutzung von Modellelementen. <b>Super, nicht wahr?</b>
@@ -16,7 +16,8 @@
          <onCompletion>
             Nun ist das Projekt angelegt und man kann sich ein wenig umschauen.
          </onCompletion>
-         <param name="path" value="2_startproject.xml"></param>
+         <param name="path" value="2_startproject.xml">
+         </param>
       </task>
       <task kind="cheatsheet" name="Die Umgebung erkunden" skip="true">
          <intro>
@@ -25,7 +26,8 @@
          <onCompletion>
             Mit dem Wissen über die Basiselemente von MOST kann nun mit dem Bauen von Modellen begonnen werden.
          </onCompletion>
-         <param name="path" value="3_environment.xml"></param>
+         <param name="path" value="3_environment.xml">
+         </param>
       </task>
       <taskGroup kind="sequence" name="Eine Anwendung mit Modellen beschreiben" skip="false">
          <intro>
@@ -41,7 +43,8 @@
             <onCompletion>
                Es wurde gezeigt, was bei der Modellierung der Anwendungsebene beachtet werden muss.
             </onCompletion>
-            <param name="path" value="4_editorstart.xml"></param>
+            <param name="path" value="4_editorstart.xml">
+            </param>
          </task>
          <task kind="cheatsheet" name="Datenschichten modellieren" skip="false">
             <intro>
@@ -50,7 +53,8 @@
             <onCompletion>
                Jetzt sind die Datenstrukturen der Anwendung festgelegt.
             </onCompletion>
-            <param name="path" value="5_editormodel.xml"></param>
+            <param name="path" value="5_editormodel.xml">
+            </param>
          </task>
          <task kind="cheatsheet" name="Controller modellieren" skip="false">
             <intro>
@@ -59,16 +63,8 @@
             <onCompletion>
                Nun wurden die Controller-Details spezifiziert.
             </onCompletion>
-            <param name="path" value="6_editorcontroller.xml"></param>
-         </task>
-         <task kind="cheatsheet" name="Views modellieren" skip="true">
-            <intro>
-               Dieses Cheatsheet hilft bei der Erstellung einer neuen View-Schicht in der Anwendung.
-            </intro>
-            <onCompletion>
-               Jetzt wurde die Ausgabeschicht beschrieben.
-            </onCompletion>
-            <param name="path" value="7_editorview.xml"></param>
+            <param name="path" value="6_editorcontroller.xml">
+            </param>
          </task>
          <task kind="cheatsheet" name="Workflows modellieren" skip="true">
             <intro>
@@ -77,7 +73,8 @@
             <onCompletion>
                Nun beinhaltet das Anwendungsmodell individuelle Workflows.
             </onCompletion>
-            <param name="path" value="8_editorworkflow.xml"></param>
+            <param name="path" value="8_editorworkflow.xml">
+            </param>
          </task>
       </taskGroup>
       <task kind="cheatsheet" name="Eine Anwendung generieren" skip="false">
@@ -87,7 +84,8 @@
          <onCompletion>
             Diese Lektion hat die Validierung vorgestellt und gezeigt, wie man aus einem Modell Code generiert.
          </onCompletion>
-         <param name="path" value="9_generator.xml"></param>
+         <param name="path" value="9_generator.xml">
+         </param>
       </task>
    </taskGroup>
 </compositeCheatsheet>
