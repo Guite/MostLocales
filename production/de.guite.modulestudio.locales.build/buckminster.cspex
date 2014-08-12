@@ -7,7 +7,6 @@
         <dependency name="de.guite.modulestudio.branding" componentType="osgi.bundle"/>
         <dependency name="de.guite.modulestudio.gmf.cust" componentType="osgi.bundle"/>
         <dependency name="de.guite.modulestudio.gmf.main" componentType="osgi.bundle"/>
-        <dependency name="de.guite.modulestudio.gmf.model" componentType="osgi.bundle"/>
         <dependency name="de.guite.modulestudio.help" componentType="osgi.bundle"/>
         <dependency name="de.guite.modulestudio.help.cheatsheets" componentType="osgi.bundle"/>
         <dependency name="de.guite.modulestudio.help.intro" componentType="osgi.bundle"/>

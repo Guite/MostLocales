@@ -3,6 +3,8 @@
     <extensionContent id="migrate-top-left" style="css/style.css" name="Migration Extension" path="migrate/@">
         <group style-id="content-group" id="deguitemodulestudio-introLink-group">
             <text>Zum Öffnen eines Modells aus 0.6.x lösche die .mostdiagram-Datei und öffne die .mostapp-Datei in einem Texteditor.</text>
+            <text>Entferne die Anwendungs-Eigenschaft "applicationType", sofern vorhanden.</text>
+            <text>Entferne alle "modelLayer"- und "modelContainer"-Elemente, so dass die Anwendung direkt "entities", "variables" und "relations" enthält.</text>
             <text>Scrolle nach unten und entferne sowohl die "viewLayer"-Sektion als auch alle "defaultDataSource"-Zeilen.</text>
             <text>Entferne alle "controllerLayer"- und "controllerContainer"-Elemente, so dass die Anwendung direkt "controllers" enthält.</text>
             <text>Entferne alle Vorkommen der Eigenschaft "numExampleRows" (ist nun eine Generator-Einstellung namens "amountOfExampleRows").</text>

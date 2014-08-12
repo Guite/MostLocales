@@ -2,6 +2,8 @@
 <introContent>
     <extensionContent id="whatsnew-top-left" style="css/style.css" name="Was gibts Neues Extension" path="whatsnew/@">
         <group style-id="content-group" id="deguitemodulestudio-introLink-group070">
+            <text>Die Anwendungs-Eigenschaft applicationType wurde entfernt.</text>
+            <text>Elemente der Datenschicht in Haupteditor verschoben.</text>
             <text>Eigenschaft für Anzahl der Beispieldatensätze in Generator-Einstellungen verschoben.</text>
             <text>Verbleibende Elemente der Controller-Schicht in Haupteditor verschoben.</text>
             <text>Zwei neue Eigenschaften erlauben das Steuern der Sichtbarkeit und CSS-Klassen von Feldern.</text>
