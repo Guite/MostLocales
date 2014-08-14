@@ -2,6 +2,8 @@
 <introContent>
     <extensionContent id="whatsnew-top-left" style="css/style.css" name="Was gibts Neues Extension" path="whatsnew/@">
         <group style-id="content-group" id="deguitemodulestudio-introLink-group070">
+            <text>Entitäten enthalten nun Controller-Aktionen analog zu anderen Controller-Elementen. Damit kann für jede Entität gesteuert werden, welche Anwendungsfälle zutreffen.</text>
+            <text>Die Entity-Eigenschaft mappedSuperClass wurde durch ein eigenes Sprachelement ersetzt.</text>
             <text>Die Anwendungs-Eigenschaft applicationType wurde entfernt.</text>
             <text>Elemente der Datenschicht in Haupteditor verschoben.</text>
             <text>Eigenschaft für Anzahl der Beispieldatensätze in Generator-Einstellungen verschoben.</text>

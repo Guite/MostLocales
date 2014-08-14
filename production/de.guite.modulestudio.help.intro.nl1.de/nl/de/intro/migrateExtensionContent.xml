@@ -4,10 +4,13 @@
         <group style-id="content-group" id="deguitemodulestudio-introLink-group">
             <text>Zum Öffnen eines Modells aus 0.6.x lösche die .mostdiagram-Datei und öffne die .mostapp-Datei in einem Texteditor.</text>
             <text>Entferne die Anwendungs-Eigenschaft "applicationType", sofern vorhanden.</text>
-            <text>Entferne alle "modelLayer"- und "modelContainer"-Elemente, so dass die Anwendung direkt "entities", "variables" und "relations" enthält.</text>
-            <text>Scrolle nach unten und entferne sowohl die "viewLayer"-Sektion als auch alle "defaultDataSource"-Zeilen.</text>
-            <text>Entferne alle "controllerLayer"- und "controllerContainer"-Elemente, so dass die Anwendung direkt "controllers" enthält.</text>
             <text>Entferne alle Vorkommen der Eigenschaft "numExampleRows" (ist nun eine Generator-Einstellung namens "amountOfExampleRows").</text>
+            <text>Entferne alle "defaultDataSource"-Zeilen.</text>
+            <text>Entferne alle "modelLayer"- und "modelContainer"-Elemente, so dass die Anwendung direkt "entities", "variables" und "relations" enthält.</text>
+            <text>Ersetze "entity ... mappedSuperClass" durch "mappedSuperClass ...".</text>
+            <text>Scrolle nach unten und entferne die "viewLayer"-Sektion.</text>
+            <text>Entferne alle "controllerLayer"- und "controllerContainer"-Elemente, so dass die Anwendung direkt "controllers" enthält.</text>
+            <text>View/Display/Edit/Delete Aktionen sind in Admin/User/Custom Controllern nicht mehr erlaubt. Statt dessen müssen Entitäten auch Aktionen enthalten.</text>
             <text>Nach dem Speichern der Datei verwende "Datei -> Diagrammdatei initialisieren" in ModuleStudio 0.7.0.</text>
             <text>Wähle die .mostapp-Datei im Assistenten aus und klicke auf "weiter", danach auf "fertig".</text>
             <text></text>
