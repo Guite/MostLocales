@@ -27,13 +27,13 @@
       <import plugin="de.guite.modulestudio.help.intro" version="1.0.0" match="equivalent"/>
       <import plugin="de.guite.modulestudio.help" version="1.0.0" match="equivalent"/>
       <import plugin="de.guite.modulestudio.metamodel.edit" version="1.0.0" match="equivalent"/>
-      <import plugin="de.guite.modulestudio.metamodel" version="1.0.1" match="equivalent"/>
       <import plugin="de.guite.modulestudio.update" version="1.0.0" match="equivalent"/>
-      <import plugin="org.zikula.modulestudio.generator" version="1.0.0" match="equivalent"/>
       <import plugin="de.guite.modulestudio.mostdsl" version="1.0.0" match="equivalent"/>
+      <import plugin="de.guite.modulestudio.mostdsl.edit" version="1.0.0" match="equivalent"/>
       <import plugin="de.guite.modulestudio.mostdsl.ui" version="1.0.0" match="equivalent"/>
+      <import plugin="de.guite.modulestudio.mostdsl.ui.importer" version="1.0.0" match="equivalent"/>
+      <import plugin="org.zikula.modulestudio.generator" version="1.0.0" match="equivalent"/>
       <import plugin="org.eclipse.xtext.gmf.glue" version="2.4.0" match="equivalent"/>
-      <import plugin="de.guite.modulestudio.mostdsl.ui.importer" version="1.0.0" match="greaterOrEqual"/>
    </requires>
 
    <plugin
@@ -85,7 +85,7 @@
          unpack="false"/>
 
    <plugin
-         id="de.guite.modulestudio.metamodel.edit.nl1.de"
+         id="de.guite.modulestudio.mostdsl.nl1.de"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -93,7 +93,23 @@
          unpack="false"/>
 
    <plugin
-         id="de.guite.modulestudio.metamodel.nl1.de"
+         id="de.guite.modulestudio.mostdsl.edit.nl1.de"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="de.guite.modulestudio.mostdsl.ui.nl1.de"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="de.guite.modulestudio.mostdsl.ui.importer.nl1.de"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -117,31 +133,7 @@
          unpack="false"/>
 
    <plugin
-         id="de.guite.modulestudio.mostdsl.nl1.de"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         fragment="true"
-         unpack="false"/>
-
-   <plugin
-         id="de.guite.modulestudio.mostdsl.ui.nl1.de"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         fragment="true"
-         unpack="false"/>
-
-   <plugin
          id="org.eclipse.xtext.gmf.glue.nl1.de"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         fragment="true"
-         unpack="false"/>
-
-   <plugin
-         id="de.guite.modulestudio.mostdsl.ui.importer.nl1.de"
          download-size="0"
          install-size="0"
          version="0.0.0"

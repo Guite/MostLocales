@@ -10,9 +10,8 @@
         <dependency name="de.guite.modulestudio.help" componentType="osgi.bundle"/>
         <dependency name="de.guite.modulestudio.help.cheatsheets" componentType="osgi.bundle"/>
         <dependency name="de.guite.modulestudio.help.intro" componentType="osgi.bundle"/>
-        <dependency name="de.guite.modulestudio.metamodel" componentType="osgi.bundle"/>
-        <dependency name="de.guite.modulestudio.metamodel.edit" componentType="osgi.bundle"/>
         <dependency name="de.guite.modulestudio.mostdsl" componentType="osgi.bundle"/>
+        <dependency name="de.guite.modulestudio.mostdsl.edit" componentType="osgi.bundle"/>
         <dependency name="de.guite.modulestudio.mostdsl.ui" componentType="osgi.bundle"/>
         <dependency name="de.guite.modulestudio.mostdsl.ui.importer" componentType="osgi.bundle"/>
         <dependency name="de.guite.modulestudio.update" componentType="osgi.bundle"/>
