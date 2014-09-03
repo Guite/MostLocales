@@ -26,7 +26,6 @@
       <import plugin="de.guite.modulestudio.help.cheatsheets" version="1.0.0" match="equivalent"/>
       <import plugin="de.guite.modulestudio.help.intro" version="1.0.0" match="equivalent"/>
       <import plugin="de.guite.modulestudio.help" version="1.0.0" match="equivalent"/>
-      <import plugin="de.guite.modulestudio.metamodel.edit" version="1.0.0" match="equivalent"/>
       <import plugin="de.guite.modulestudio.update" version="1.0.0" match="equivalent"/>
       <import plugin="de.guite.modulestudio.mostdsl" version="1.0.0" match="equivalent"/>
       <import plugin="de.guite.modulestudio.mostdsl.edit" version="1.0.0" match="equivalent"/>
