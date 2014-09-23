@@ -2,6 +2,7 @@
 <introContent>
     <extensionContent id="whatsnew-top-left" style="css/style.css" name="Was gibts Neues Extension" path="whatsnew/@">
         <group style-id="content-group" id="deguitemodulestudio-introLink-group070">
+            <text>Eine neue Generator-Einstellung erlaubt die Kontrolle darüber, ob die ModuleStudio-Version Teil des obersten Doc-Blocks für alle generierten Dateien oder nur für die Version-Klasse integriert werden soll (#627).</text>
             <text>Für die generierten Templates werden YAML-Beispieldateien mit Overrides zum einfachen Herauskopieren vorgeneriert (#460).</text>
             <text>Entitäten enthalten nun Controller-Aktionen analog zu anderen Controller-Elementen. Damit kann für jede Entität gesteuert werden, welche Anwendungsfälle zutreffen.</text>
             <text>Die Entity-Eigenschaft mappedSuperClass wurde durch ein eigenes Sprachelement ersetzt.</text>
