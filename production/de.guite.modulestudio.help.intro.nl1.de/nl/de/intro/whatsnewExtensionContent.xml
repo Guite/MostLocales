@@ -2,8 +2,12 @@
 <introContent>
     <extensionContent id="whatsnew-top-left" style="css/style.css" name="Was gibts Neues Extension" path="whatsnew/@">
         <group style-id="content-group" id="deguitemodulestudio-introLink-group070">
+            <text>The postInstall event newly introduced in Zikula 1.4 is supported.</text>
+            <text>The primary variable name for search terms has been changed to "q" for improved integration with analytics software.</text>
             <text>Eine neue Generator-Einstellung erlaubt die Kontrolle darüber, ob die ModuleStudio-Version Teil des obersten Doc-Blocks für alle generierten Dateien oder nur für die Version-Klasse integriert werden soll (#627).</text>
             <text>Für die generierten Templates werden YAML-Beispieldateien mit Overrides zum einfachen Herauskopieren vorgeneriert (#460).</text>
+            <text>In 1.4-Anwendungen werden statt der ModUrl-Klasse nun RouteUrl und das UrlInterface verwendet.</text>
+            <text>Die maxLength-Eigenschaft von Textfeldern wird nun ordentlich in den generierten Formularfeldern abgebildet.</text>
             <text>Entitäten enthalten nun Controller-Aktionen analog zu anderen Controller-Elementen. Damit kann für jede Entität gesteuert werden, welche Anwendungsfälle zutreffen.</text>
             <text>Die Entity-Eigenschaft mappedSuperClass wurde durch ein eigenes Sprachelement ersetzt.</text>
             <text>Die Anwendungs-Eigenschaft applicationType wurde entfernt.</text>
@@ -14,6 +18,7 @@
             <text>Action Handler, Action Events und Transitions aus Controller-Layer entfernt.</text>
             <text>DSL-Eigenschaften für View-Layer, Event Listener und Transform-Objekte entfernt.</text>
             <text>Aktualisiert auf Eclipse 4.4.1 (Luna SR1).</text>
+            <text>Viele kleinere Fehlerbehebungen im Generator.</text>
         </group>
         <group style-id="content-group" id="deguitemodulestudio-introLink-group062">
             <text>An passenden Stellen werden Avatare der Benutzer angezeigt (#607).</text>
