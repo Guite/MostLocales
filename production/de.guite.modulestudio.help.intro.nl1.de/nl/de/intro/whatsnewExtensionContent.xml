@@ -2,6 +2,7 @@
 <introContent>
     <extensionContent id="whatsnew-top-left" style="css/style.css" name="Was gibts Neues Extension" path="whatsnew/@">
         <group style-id="content-group" id="deguitemodulestudio-introLink-group070">
+            <text>The Generator displays descriptions for field names containing numbers more readable.</text>
             <text>The postInstall event newly introduced in Zikula 1.4 is supported.</text>
             <text>The primary variable name for search terms has been changed to "q" for improved integration with analytics software.</text>
             <text>Eine neue Generator-Einstellung erlaubt die Kontrolle darüber, ob die ModuleStudio-Version Teil des obersten Doc-Blocks für alle generierten Dateien oder nur für die Version-Klasse integriert werden soll (#627).</text>
