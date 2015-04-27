@@ -20,39 +20,20 @@
    </license>
 
    <requires>
-      <import plugin="de.guite.modulestudio.branding" version="1.0.0" match="equivalent"/>
-      <import plugin="de.guite.modulestudio.gmf.cust" version="1.0.0" match="equivalent"/>
-      <import plugin="de.guite.modulestudio.gmf.main" version="1.0.0" match="equivalent"/>
       <import plugin="de.guite.modulestudio.help.cheatsheets" version="1.0.0" match="equivalent"/>
       <import plugin="de.guite.modulestudio.help.intro" version="1.0.0" match="equivalent"/>
       <import plugin="de.guite.modulestudio.help" version="1.0.0" match="equivalent"/>
-      <import plugin="de.guite.modulestudio.update" version="1.0.0" match="equivalent"/>
       <import plugin="de.guite.modulestudio.mostdsl" version="1.0.0" match="equivalent"/>
       <import plugin="de.guite.modulestudio.mostdsl.edit" version="1.0.0" match="equivalent"/>
       <import plugin="de.guite.modulestudio.mostdsl.ui" version="1.0.0" match="equivalent"/>
-      <import plugin="de.guite.modulestudio.mostdsl.ui.importer" version="1.0.0" match="equivalent"/>
+      <import plugin="de.guite.modulestudio.mostdsl.ui.importer" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="de.guite.modulestudio.ui" version="1.0.0" match="equivalent"/>
+      <import plugin="de.guite.modulestudio.update" version="1.0.0" match="equivalent"/>
       <import plugin="org.zikula.modulestudio.generator" version="1.0.0" match="equivalent"/>
-      <import plugin="org.eclipse.xtext.gmf.glue" version="2.4.0" match="equivalent"/>
    </requires>
 
    <plugin
          id="de.guite.modulestudio.branding.nl1.de"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         fragment="true"
-         unpack="false"/>
-
-   <plugin
-         id="de.guite.modulestudio.gmf.cust.nl1.de"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         fragment="true"
-         unpack="false"/>
-
-   <plugin
-         id="de.guite.modulestudio.gmf.main.nl1.de"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -116,6 +97,13 @@
          unpack="false"/>
 
    <plugin
+         id="de.guite.modulestudio.ui.nl1.de"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         fragment="true"/>
+
+   <plugin
          id="de.guite.modulestudio.update.nl1.de"
          download-size="0"
          install-size="0"
@@ -132,11 +120,10 @@
          unpack="false"/>
 
    <plugin
-         id="org.eclipse.xtext.gmf.glue.nl1.de"
+         id="org.zikula.modulestudio.generator.reporting.nl1.de"
          download-size="0"
          install-size="0"
          version="0.0.0"
-         fragment="true"
-         unpack="false"/>
+         fragment="true"/>
 
 </feature>

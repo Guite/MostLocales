@@ -5,7 +5,7 @@
     xmlns="http://www.eclipse.org/buckminster/CSpec-1.0" componentType="eclipse.feature" version="1.0.0">
     <dependencies>
         <dependency name="de.guite.modulestudio.branding" componentType="osgi.bundle"/>
-        <dependency name="de.guite.modulestudio.gmf.cust" componentType="osgi.bundle"/>
+        <dependency name="de.guite.modulestudio.ui.cust" componentType="osgi.bundle"/>
         <dependency name="de.guite.modulestudio.gmf.main" componentType="osgi.bundle"/>
         <dependency name="de.guite.modulestudio.help" componentType="osgi.bundle"/>
         <dependency name="de.guite.modulestudio.help.cheatsheets" componentType="osgi.bundle"/>
