@@ -9,7 +9,7 @@
       <description>
          Starte den Assistenten im Hauptmenü über <b>Datei &gt; Neu... &gt; Anwendungs-Diagramm...</b>. Oder verwende den folgenden Link.
       </description>
-      <command serialization="org.eclipse.ui.newWizard(newWizardId=de.guite.modulestudio.app.part.ModulestudioCreationWizardID)" confirm="false">
+      <command serialization="org.eclipse.ui.newWizard(newWizardId=de.guite.modulestudio.ui.wizard.ModuleStudioCreationWizardID)" confirm="false">
       </command>
    </item>
    <item title="Modell-Dateinamen definieren" dialog="true" skip="true">
