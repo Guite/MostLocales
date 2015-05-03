@@ -21,10 +21,10 @@
          <description>
             Starte den Generator im Hauptmenü über <b>Datei &gt; Anwendung generieren</b>. Oder verwende den folgenden Link.
          </description>
-         <action
-             class="de.guite.modulestudio.ui.actions.GenerateAction"
-             pluginId="de.guite.modulestudio.ui" confirm="true">
-         </action>
+         <command
+             serialization="de.guite.modulestudio.ui.commands.GenerateHandler"
+             confirm="true">
+         </command>
       </subItem>
    </item>
 </cheatsheet>
