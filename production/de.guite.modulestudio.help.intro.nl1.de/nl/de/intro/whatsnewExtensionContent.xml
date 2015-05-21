@@ -7,6 +7,7 @@
             <text>Neue mächtige Editoren (für Details siehe Dokumentation).</text>
             <text>Grundlegende Einstellungen zur Vermeidung wiederholter Arbeit.</text>
             <text>Die DSL verwendet einen neuen Formatierer für das Modellformat.</text>
+            <text>Die Relationsattribute orderBy und orderByReverse werden auf gültige Felder validiert.</text>
             <text>Der Generator stellt nun Beschreibungen für Feldnamen mit Ziffern lesbarer dar.</text>
             <text>Das in Zikula 1.4 neu hinzugekommene postInstall-Event wird unterstützt.</text>
             <text>Der primäre Name der Variablen für Suchbegriffe wurde auf "q" geändert zwecks besserer Integration mit Analytics-Software.</text>
