@@ -2,14 +2,15 @@
 <introContent>
     <extensionContent id="whatsnew-top-left" style="css/style.css" name="Was gibts Neues Extension" path="whatsnew/@">
         <group style-id="content-group" id="deguitemodulestudio-introLink-group070">
-            <text>Anwendungen können jetzt Capabilities definieren, die sie anbieten.</text>
+            <text>Anwendungen können jetzt Capabilities definieren, die sie anbieten (#667).</text>
             <text>Neue Implementierung des Hauptprogramms, UI-Elemente überarbeitet.</text>
             <text>Neue mächtige Editoren (für Details siehe Dokumentation).</text>
-            <text>Grundlegende Einstellungen zur Vermeidung wiederholter Arbeit.</text>
+            <text>Grundlegende Einstellungen erlauben die zentrale Angabe häufig benötigter Daten (Vendor, Autor, etc.) zur Vermeidung wiederholter Arbeit.</text>
             <text>Die DSL verwendet einen neuen Formatierer für das Modellformat.</text>
             <text>Die Relationsattribute orderBy und orderByReverse werden auf gültige Felder validiert.</text>
             <text>Der Generator stellt nun Beschreibungen für Feldnamen mit Ziffern lesbarer dar.</text>
-            <text>Das Bearbeiten von Zeitfeldern wird nun durch ein eigenes Form-Plugin unterstützt. Auch für Datumsfelder gibt es einen neuen Selector.</text>
+            <text>Anwendungen unter 1.4 verwenden Webshims Polyfill für Formulare, um bessere Unterstützung für HTML5 Validierung in alten Browsern bereitzustellen (#673).</text>
+            <text>Das Bearbeiten von Zeitfeldern wird nun durch ein eigenes Form-Plugin unterstützt. Auch für Datumsfelder gibt es einen neuen Selector (#87).</text>
             <text>Das in Zikula 1.4 neu hinzugekommene postInstall-Event wird unterstützt.</text>
             <text>Der primäre Name der Variablen für Suchbegriffe wurde auf "q" geändert zwecks besserer Integration mit Analytics-Software.</text>
             <text>Eine neue Generator-Einstellung erlaubt die Kontrolle darüber, ob die ModuleStudio-Version Teil des obersten Doc-Blocks für alle generierten Dateien oder nur für die Version-Klasse integriert werden soll (#627).</text>
