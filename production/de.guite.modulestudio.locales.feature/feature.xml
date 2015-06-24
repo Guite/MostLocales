@@ -30,6 +30,8 @@
       <import plugin="de.guite.modulestudio.ui" version="1.0.0" match="equivalent"/>
       <import plugin="de.guite.modulestudio.update" version="1.0.0" match="equivalent"/>
       <import plugin="org.zikula.modulestudio.generator" version="1.0.0" match="equivalent"/>
+      <import plugin="de.guite.modulestudio.branding" version="1.0.0" match="equivalent"/>
+      <import plugin="org.zikula.modulestudio.generator.reporting" version="1.0.0" match="equivalent"/>
    </requires>
 
    <plugin
