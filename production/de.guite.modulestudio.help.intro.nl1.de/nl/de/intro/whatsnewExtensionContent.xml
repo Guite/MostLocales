@@ -29,7 +29,7 @@
             <text>Zwei neue Eigenschaften erlauben das Steuern der Sichtbarkeit und CSS-Klassen von Feldern.</text>
             <text>Action Handler, Action Events und Transitions aus Controller-Layer entfernt.</text>
             <text>DSL-Eigenschaften für View-Layer, Event Listener und Transform-Objekte entfernt.</text>
-            <text>Aktualisiert auf Eclipse 4.5.0 (Mars).</text>
+            <text>Aktualisiert auf Eclipse 4.5.1 (Mars SR 1).</text>
             <text>Viele kleinere Fehlerbehebungen im Generator.</text>
         </group>
         <group style-id="content-group" id="deguitemodulestudio-introLink-group062">
