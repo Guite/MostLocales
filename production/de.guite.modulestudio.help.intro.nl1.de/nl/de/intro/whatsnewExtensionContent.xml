@@ -10,6 +10,7 @@
             <text>Grundlegende Einstellungen erlauben die zentrale Angabe häufig benötigter Daten (Vendor, Autor, etc.) zur Vermeidung wiederholter Arbeit.</text>
             <text>Die DSL verwendet einen neuen Formatierer für das Modellformat.</text>
             <text>Mit der Eigenschaft skipHookSubscribers kann beeinflusst werden, ob eine Entität Display- und Filter-Hooks unterstützen soll oder nicht. In manchen Fällen kann es Sinn machen, dies zur Steigerung der Performance abzuschalten (#702).</text>
+            <text>String-Eigenschaft für zusätzliche Datums-Validierungen hinzugefügt (#640).</text>
             <text>Die Relationsattribute orderBy und orderByReverse werden auf gültige Felder validiert.</text>
             <text>Constraints für min und max Einträge können unabhängig voneinander für Array-Felder und mehrwertige Beziehungen (wie es auch für mehrwertige Listen-Felder möglich ist).</text>
             <text>Der Generator stellt nun Beschreibungen für Feldnamen mit Ziffern lesbarer dar.</text>
