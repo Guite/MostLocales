@@ -3,6 +3,7 @@
     <extensionContent id="whatsnew-top-left" style="css/style.css" name="Was gibts Neues Extension" path="whatsnew/@">
         <group style-id="content-group" id="deguitemodulestudio-introLink-group070">
             <text>Anwendungen können jetzt Capabilities definieren, die sie anbieten (#667).</text>
+            <text>Twig wird an Stelle von Smarty für 1.4 verwendet (#571).</text>
             <text>Unter 1.4 wird nun der LinkContainer-Service an Stelle User-/Admin-APIs für die Header-Links benutzt.</text>
             <text>Anwendungen unter 1.4 verwenden Capabilities zur Anzeige der Nutzung von Kategorien.</text>
             <text>Neue Implementierung des Hauptprogramms, UI-Elemente überarbeitet.</text>
