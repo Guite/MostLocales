@@ -32,6 +32,9 @@
       <import plugin="org.zikula.modulestudio.generator" version="1.0.0" match="equivalent"/>
       <import plugin="de.guite.modulestudio.branding" version="1.0.0" match="equivalent"/>
       <import plugin="org.zikula.modulestudio.generator.reporting" version="1.0.0" match="equivalent"/>
+      <import feature="org.eclipse.babel.nls_eclipse_de" version="4.5.0.v20151128060001"/>
+      <import feature="org.eclipse.babel.nls_modeling.emf_de" version="4.5.0.v20151128060001"/>
+      <import feature="org.eclipse.babel.nls_tools.gef_de" version="4.5.0.v20151128060001"/>
    </requires>
 
    <plugin
