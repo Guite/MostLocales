@@ -18,6 +18,7 @@
             <text>Der Generator stellt nun Beschreibungen für Feldnamen mit Ziffern lesbarer dar.</text>
             <text>Anwendungen unter 1.4 verwenden Webshims Polyfill für Formulare, um bessere Unterstützung für HTML5 Validierung in alten Browsern bereitzustellen (#673).</text>
             <text>Das Bearbeiten von Zeitfeldern wird nun durch ein eigenes Form-Plugin unterstützt. Auch für Datumsfelder gibt es einen neuen Selector (#87).</text>
+            <text>Textvariablen haben eine neue multiline-Eigenschaft, um zwischen einzeiligen Textfeldern und Textareas unterscheiden zu können (#722).</text>
             <text>In 1.4-Anwendungen werden Annotationen zur Unterscheidung von Admin- und User-Areas in Entity-Controllern verwendet (#633).</text>
             <text>Das in Zikula 1.4 neu hinzugekommene postInstall-Event wird unterstützt.</text>
             <text>Der primäre Name der Variablen für Suchbegriffe wurde auf "q" geändert zwecks besserer Integration mit Analytics-Software.</text>
