@@ -2,6 +2,19 @@
 <introContent>
     <extensionContent id="whatsnew-top-left" style="css/style.css" name="Was gibts Neues Extension" path="whatsnew/@">
         <group style-id="content-group" id="deguitemodulestudio-introLink-group070">
+            <text>Die UI von ModuleStudio ist nun schlanker und beschränkt sich auf die relevanten Bedienelemente.</text>
+            <text>Es stehen zwei verschiedene Designs zur Verfügung: hell und dunkel.</text>
+            <text>Es gibt neue Editoren: ein primärer graphischer Diagrammeditor und zwei tabellarische Editoren für Entitäten und Variablen.</text>
+            <text>Alle Editoren werden automatisch miteinander synchronisiert, so dass Änderungen überall sofort reflektiert werden.</text>
+            <text>Der graphische Editor besitzt keine Untereditoren mehr, sondern arbeitet mit unterschiedlichen Ebenen, die ein- und ausgeblendet werden können.</text>
+            <text>Verfügbare Views: Dashboard (Quick Links), Fehlerprotokoll, Modell-Outline, Eigenschaften, aktuelle Probleme.</text>
+            <text>Ein Doppelklick auf einen Fehler oder eine Warnung in der Problem View wählt das betroffene Element im Diagramm aus.</text>
+            <text>Eine eigene Preference-Seite erlaubt die Hinterlegung von ModuleStudio-spezifischen Grundeinstellungen.</text>
+            <text>Der Assistent zum Anlegen neuer Modelle verwendet die Grundeinstellungen und spart somit das mehrmalige Eingeben wiederkehrender Daten.</text>
+            <text>Beim Öffnen eines Modells wird dieses automatisch validiert.</text>
+            <text>Beim Speichern eines Modells wird dieses automatisch validiert und die Modelldatei wird konsistent und lesbar formatiert.</text>
+            <text>Über das Kontextmenü eines Problems in der Problem View können Quick Fixes (Schnellreparaturen) aufgerufen und ausgeführt werden.</text>
+            <text>Beim Anlegen von Relationen werden die Bezeichnungen der Quell- und Zielseiten automatisch mit den passenden Singular- und Pluralnamen der entsprechenden Entitäten vorbelegt.</text>
             <text>Anwendungen können jetzt Capabilities definieren, die sie anbieten (#667).</text>
             <text>Twig wird an Stelle von Smarty für 1.4 verwendet (#571).</text>
             <text>Unter 1.4 wird nun der LinkContainer-Service an Stelle User-/Admin-APIs für die Header-Links benutzt.</text>
