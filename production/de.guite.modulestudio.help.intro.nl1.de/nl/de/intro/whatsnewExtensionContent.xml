@@ -49,6 +49,7 @@
             <text>Action Handler, Action Events und Transitions aus Controller-Layer entfernt.</text>
             <text>DSL-Eigenschaften für View-Layer, Event Listener und Transform-Objekte entfernt.</text>
             <text>Aktualisiert auf Eclipse 4.5.1 (Mars SR 1).</text>
+            <text>ModuleStudio bringt die benötigte Umgebung für Java 8 direkt mit und kann damit auch auf Systemen ohne Java oder mit veralteten Java-Versionen verwendet werden.</text>
             <text>Viele kleinere Fehlerbehebungen im Generator.</text>
         </group>
         <group style-id="content-group" id="deguitemodulestudio-introLink-group062">
