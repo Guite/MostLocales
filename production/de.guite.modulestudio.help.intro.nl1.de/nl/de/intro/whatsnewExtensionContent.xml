@@ -14,6 +14,7 @@
             <text>Beim Öffnen eines Modells wird dieses automatisch validiert.</text>
             <text>Beim Speichern eines Modells wird dieses automatisch validiert und die Modelldatei wird konsistent und lesbar formatiert.</text>
             <text>Über das Kontextmenü eines Problems in der Problem View können Quick Fixes (Schnellreparaturen) aufgerufen und ausgeführt werden.</text>
+            <text>Spezielle und nur selten benötigte Eigenschaften sind per Standard versteckt und können mit einem Knopf (Experten-Einstellungen) ein- und ausgeblendet werden.</text>
             <text>Beim Anlegen von Relationen werden die Bezeichnungen der Quell- und Zielseiten automatisch mit den passenden Singular- or Pluralnamen der entsprechenden Entitäten vorbelegt.</text>
             <text>Anwendungen können jetzt Capabilities definieren, die sie anbieten (#667).</text>
             <text>Twig wird an Stelle von Smarty für 1.4 verwendet (#571).</text>
