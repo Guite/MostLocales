@@ -18,6 +18,7 @@
             <text>Beim Anlegen von Relationen werden die Bezeichnungen der Quell- und Zielseiten automatisch mit den passenden Singular- or Pluralnamen der entsprechenden Entitäten vorbelegt.</text>
             <text>Anwendungen können jetzt Capabilities definieren, die sie anbieten (#667).</text>
             <text>Twig wird an Stelle von Smarty für 1.4 verwendet (#571).</text>
+            <text>In 1.4 werden Symfony Forms an Stelle des alten Forms Frameworks verwendet (#416).</text>
             <text>String-Felder können als Zeitzone gekennzeichnet werden (analog zu Währung, Land, Sprache, Locale, Farbe, IP-Adresse, IBAN-Nummer usw.).</text>
             <text>Integer-, Dezimal- und Floatfelder können als prozentual gekennzeichnet werden.</text>
             <text>Integerfelder mit Minimum und Maximum können als Bereich gekennzeichnet werden.</text>
