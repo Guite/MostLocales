@@ -11,6 +11,7 @@
             <text>Ein Doppelklick auf einen Fehler oder eine Warnung in der Problem View wählt das betroffene Element im Diagramm aus.</text>
             <text>Eine eigene Preference-Seite erlaubt die Hinterlegung von ModuleStudio-spezifischen Grundeinstellungen.</text>
             <text>Der Assistent zum Anlegen neuer Modelle verwendet die Grundeinstellungen und spart somit das mehrmalige Eingeben wiederkehrender Daten.</text>
+            <text>Bestehende Modelle können einfach importiert werden. Alte Modelle aus Version 0.6.2 werden automatisch migriert.</text>
             <text>Beim Öffnen eines Modells wird dieses automatisch validiert.</text>
             <text>Beim Speichern eines Modells wird dieses automatisch validiert und die Modelldatei wird konsistent und lesbar formatiert.</text>
             <text>Über das Kontextmenü eines Problems in der Problem View können Quick Fixes (Schnellreparaturen) aufgerufen und ausgeführt werden.</text>
