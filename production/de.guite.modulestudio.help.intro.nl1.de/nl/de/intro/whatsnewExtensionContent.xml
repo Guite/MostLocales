@@ -9,6 +9,8 @@
             <text>Der graphische Editor besitzt keine Untereditoren mehr, sondern arbeitet mit unterschiedlichen Ebenen, die ein- und ausgeblendet werden können.</text>
             <text>Verfügbare Views: Dashboard (Quick Links), Fehlerprotokoll, Modell-Outline, Eigenschaften, aktuelle Probleme.</text>
             <text>Ein Doppelklick auf einen Fehler oder eine Warnung in der Problem View wählt das betroffene Element im Diagramm aus.</text>
+            <text>Felder und Variablen können per Kontextmenü umsortiert werden (Anfang, hoch, runter, Ende).</text>
+            <text>Die Einträge von Listenfeldern und -variablen können per Doppelklick in einem Dialogfenster verwaltet werden.</text>
             <text>Eine eigene Preference-Seite erlaubt die Hinterlegung von ModuleStudio-spezifischen Grundeinstellungen.</text>
             <text>Der Assistent zum Anlegen neuer Modelle verwendet die Grundeinstellungen und spart somit das mehrmalige Eingeben wiederkehrender Daten.</text>
             <text>Bestehende Modelle können einfach importiert werden. Alte Modelle aus Version 0.6.2 werden automatisch migriert.</text>
