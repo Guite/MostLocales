@@ -20,8 +20,7 @@
    </license>
 
    <requires>
-      <import plugin="de.guite.modulestudio.help.cheatsheets" version="1.0.0" match="equivalent"/>
-      <import plugin="de.guite.modulestudio.help.intro" version="1.0.0" match="equivalent"/>
+      <import plugin="de.guite.modulestudio.branding" version="1.0.0" match="equivalent"/>
       <import plugin="de.guite.modulestudio.help" version="1.0.0" match="equivalent"/>
       <import plugin="de.guite.modulestudio.mostdsl" version="1.0.0" match="equivalent"/>
       <import plugin="de.guite.modulestudio.mostdsl.edit" version="1.0.0" match="equivalent"/>
@@ -30,28 +29,11 @@
       <import plugin="de.guite.modulestudio.ui" version="1.0.0" match="equivalent"/>
       <import plugin="de.guite.modulestudio.update" version="1.0.0" match="equivalent"/>
       <import plugin="org.zikula.modulestudio.generator" version="1.0.0" match="equivalent"/>
-      <import plugin="de.guite.modulestudio.branding" version="1.0.0" match="equivalent"/>
       <import plugin="org.zikula.modulestudio.generator.reporting" version="1.0.0" match="equivalent"/>
    </requires>
 
    <plugin
          id="de.guite.modulestudio.branding.nl1.de"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         fragment="true"
-         unpack="false"/>
-
-   <plugin
-         id="de.guite.modulestudio.help.cheatsheets.nl1.de"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         fragment="true"
-         unpack="false"/>
-
-   <plugin
-         id="de.guite.modulestudio.help.intro.nl1.de"
          download-size="0"
          install-size="0"
          version="0.0.0"
