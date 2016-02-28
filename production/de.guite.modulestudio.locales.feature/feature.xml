@@ -29,7 +29,7 @@
       <import plugin="de.guite.modulestudio.ui" version="1.0.0" match="equivalent"/>
       <import plugin="de.guite.modulestudio.update" version="1.0.0" match="equivalent"/>
       <import plugin="org.zikula.modulestudio.generator" version="1.0.0" match="equivalent"/>
-      <import plugin="org.zikula.modulestudio.generator.reporting" version="1.0.0" match="equivalent"/>
+      <import plugin="de.guite.modulestudio.ui.preferences" version="1.0.0" match="equivalent"/>
    </requires>
 
    <plugin
@@ -102,13 +102,6 @@
          version="0.0.0"
          fragment="true"
          unpack="false"/>
-
-   <plugin
-         id="org.zikula.modulestudio.generator.reporting.nl1.de"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         fragment="true"/>
 
    <plugin
          id="de.guite.modulestudio.ui.preferences.nl1.de"

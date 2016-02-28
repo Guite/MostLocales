@@ -15,7 +15,6 @@
         <dependency name="de.guite.modulestudio.ui.preferences" componentType="osgi.bundle"/>
         <dependency name="de.guite.modulestudio.update" componentType="osgi.bundle"/>
         <dependency name="org.zikula.modulestudio.generator" componentType="osgi.bundle"/>
-        <dependency name="org.zikula.modulestudio.generator.reporting" componentType="osgi.bundle"/>
         <dependency name="org.eclipse.rcp" componentType="eclipse.feature"/>
     </dependencies>
     <actions>
