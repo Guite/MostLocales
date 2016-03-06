@@ -47,4 +47,7 @@
             </products>
         </public>
     </actions>
+    <alterActions>
+        <remove name="site.signed" />
+    </alterActions>
 </cspecExtension>
