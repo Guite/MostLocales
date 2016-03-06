@@ -18,6 +18,21 @@
         <dependency name="org.eclipse.rcp" componentType="eclipse.feature"/>
     </dependencies>
     <actions>
+        <!-- Selective signing, see https://www.eclipse.org/forums/index.php/t/171734/ -->
+        <public name="site.signed" actor="ant">
+            <actorProperties>
+                <property key="buildFile" value="${workspace.root}/refProduct/de.guite.modulestudio.build/signing/signing.ant" />
+                <property key="targets" value="sign.jars" />
+            </actorProperties>
+            <prerequisites alias="action.requirements">
+                <attribute name="site.repacked" filter="(site.pack200=true)" />
+                <attribute name="site.feature.exports" filter="(!(site.pack200=true))" />
+            </prerequisites>
+            <products alias="action.output"
+                base="${buckminster.output}/site.signed/"
+                upToDatePolicy="MAPPER" />
+        </public>
+
         <!-- move p2 repository to final destination -->
         <public name="finish.repository" actor="ant">
             <actorProperties>
