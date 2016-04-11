@@ -10,4 +10,4 @@ There are two folders in this repository:
 
 Translators must only care for *translations*.
 
-[![Build Status](http://guite.info:8080/buildStatus/icon?job=MOST-1_Prepare-9_Locales)](http://guite.info:8080/job/MOST-1_Prepare-9_Locales)
+![Build Status](http://guite.info:8080/buildStatus/icon?job=MOST-1_Prepare-9_Locales)
