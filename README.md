@@ -5,8 +5,9 @@ contained artifacts like the user manual, welcome pages and cheatsheets.
 
 There are two folders in this repository:
 
+  * bundles - locale bundles used by the application
+  * features - locale features used by the application
   * translations - translation packs in several languages
-  * production - locale bundles used by the application
 
 Translators must only care for *translations*.
 

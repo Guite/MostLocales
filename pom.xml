@@ -1,0 +1,56 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>de.guite.modulestudio.locales</groupId>
+    <artifactId>de.guite.modulestudio.locales.root</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <parent>
+        <groupId>de.guite.modulestudio</groupId>
+        <artifactId>de.guite.modulestudio.configuration</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+        <relativePath>../MostProduct/releng/de.guite.modulestudio.configuration/pom.xml</relativePath>
+    </parent>
+
+    <modules>
+        <module>../MostProduct/releng/de.guite.modulestudio.target</module>
+        <module>../MostProduct/bundles/de.guite.modulestudio.branding</module>
+        <module>bundles</module>
+        <module>features</module>
+        <module>releng</module>
+    </modules>
+
+    <repositories>
+        <repository>
+            <id>most-dsl</id>
+            <url>file://${dsl.repository}</url>
+            <layout>p2</layout>
+        </repository>
+        <repository>
+            <id>most-generator</id>
+            <url>file://${generator.repository}</url>
+            <layout>p2</layout>
+        </repository>
+        <repository>
+            <id>most-ui</id>
+            <url>file://${ui.repository}</url>
+            <layout>p2</layout>
+        </repository>
+        <repository>
+            <id>most-help</id>
+            <url>file://${help.repository}</url>
+            <layout>p2</layout>
+        </repository>
+    </repositories>
+
+    <issueManagement>    
+        <system>GitHub</system>
+        <url>https://github.com/Guite/MostLocales/issues</url>
+    </issueManagement>
+    <scm>
+        <connection>scm:git:https://github.com/Guite/MostLocales.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/Guite/MostLocales.git</developerConnection>
+        <url>https://github.com/Guite/MostLocales/</url>
+    </scm>
+</project>
