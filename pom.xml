@@ -44,7 +44,7 @@
         </repository>
     </repositories>
 
-    <issueManagement>    
+    <issueManagement>
         <system>GitHub</system>
         <url>https://github.com/Guite/MostLocales/issues</url>
     </issueManagement>
