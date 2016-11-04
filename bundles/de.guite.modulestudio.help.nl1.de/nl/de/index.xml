@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.index"?>
+<index>
+    <entry keyword="Vorteile">
+        <topic title="Vorteile" href="contents/Introduction.html" />
+    </entry>
+    <entry keyword="Hauptmenü">
+        <topic title="Hauptmenü" href="contents/User-interface.html" />
+    </entry>
+    <entry keyword="Themes">
+        <topic title="Themes" href="contents/User-interface.html" />
+    </entry>
+    <entry keyword="Grundeinstellungen">
+        <topic title="Grundeinstellungen" href="contents/User-interface.html" />
+    </entry>
+    <entry keyword="Ansichten">
+        <entry keyword="Dashboard">
+            <topic title="Dashboard" href="contents/Views.html" />
+        </entry>
+        <entry keyword="Fehlerprotokoll">
+            <topic title="Fehlerprotokoll" href="contents/Views.html" />
+        </entry>
+        <entry keyword="Gliederung">
+            <topic title="Gliederung" href="contents/Views.html" />
+        </entry>
+        <entry keyword="Eigenschaften">
+            <topic title="Eigenschaften" href="contents/Views.html" />
+        </entry>
+        <entry keyword="Hilfe">
+            <topic title="Hilfe" href="contents/Views.html" />
+        </entry>
+    </entry>
+    <entry keyword="Validierung">
+        <topic title="Validierung" href="contents/Validation.html" />
+    </entry>
+    <entry keyword="Generator">
+        <topic title="Generator" href="contents/Generating-applications.html" />
+    </entry>
+    <entry keyword="Anpassung">
+        <topic title="Anpassung" href="contents/Customisation-and-maintenace.html" />
+    </entry>
+</index>
