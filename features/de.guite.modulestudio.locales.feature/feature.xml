@@ -26,6 +26,7 @@
       <import plugin="de.guite.modulestudio.mostdsl.edit" version="1.0.0" match="equivalent"/>
       <import plugin="de.guite.modulestudio.mostdsl.ui" version="1.0.0" match="equivalent"/>
       <import plugin="de.guite.modulestudio.mostdsl.ui.importer" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="de.guite.modulestudio.sirius.design" version="1.0.0" match="equivalent"/>
       <import plugin="de.guite.modulestudio.ui" version="1.0.0" match="equivalent"/>
       <import plugin="de.guite.modulestudio.update" version="1.0.0" match="equivalent"/>
       <import plugin="org.zikula.modulestudio.generator" version="1.0.0" match="equivalent"/>
@@ -80,6 +81,13 @@
          version="0.0.0"
          fragment="true"
          unpack="false"/>
+
+   <plugin
+         id="de.guite.modulestudio.sirius.design.nl1.de"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         fragment="true"/>
 
    <plugin
          id="de.guite.modulestudio.ui.nl1.de"
