@@ -25,7 +25,6 @@
       <import plugin="de.guite.modulestudio.mostdsl" version="1.0.0" match="equivalent"/>
       <import plugin="de.guite.modulestudio.mostdsl.edit" version="1.0.0" match="equivalent"/>
       <import plugin="de.guite.modulestudio.mostdsl.ui" version="1.0.0" match="equivalent"/>
-      <import plugin="de.guite.modulestudio.mostdsl.ui.importer" version="1.0.0" match="greaterOrEqual"/>
       <import plugin="de.guite.modulestudio.sirius.design" version="1.0.0" match="equivalent"/>
       <import plugin="de.guite.modulestudio.ui" version="1.0.0" match="equivalent"/>
       <import plugin="de.guite.modulestudio.update" version="1.0.0" match="equivalent"/>
