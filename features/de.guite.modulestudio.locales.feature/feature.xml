@@ -74,14 +74,6 @@
          unpack="false"/>
 
    <plugin
-         id="de.guite.modulestudio.mostdsl.ui.importer.nl1.de"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         fragment="true"
-         unpack="false"/>
-
-   <plugin
          id="de.guite.modulestudio.sirius.design.nl1.de"
          download-size="0"
          install-size="0"
