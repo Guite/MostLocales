@@ -2,7 +2,7 @@
 <feature
       id="de.guite.modulestudio.locales.feature"
       label="%featureName"
-      version="1.3.0.qualifier"
+      version="1.3.1.qualifier"
       provider-name="%providerName"
       plugin="de.guite.modulestudio.branding"
       image="most_update_120.jpg">
@@ -20,17 +20,17 @@
    </license>
 
    <requires>
-      <import plugin="de.guite.modulestudio.branding" version="1.3.0" match="equivalent"/>
-      <import plugin="de.guite.modulestudio.help" version="1.3.0" match="equivalent"/>
-      <import plugin="de.guite.modulestudio.mostdsl" version="1.3.0" match="equivalent"/>
-      <import plugin="de.guite.modulestudio.mostdsl.edit" version="1.3.0" match="equivalent"/>
-      <import plugin="de.guite.modulestudio.mostdsl.ui" version="1.3.0" match="equivalent"/>
-      <import plugin="de.guite.modulestudio.sirius.design" version="1.3.0" match="equivalent"/>
-      <import plugin="de.guite.modulestudio.ui" version="1.3.0" match="equivalent"/>
-      <import plugin="de.guite.modulestudio.update" version="1.3.0" match="equivalent"/>
-      <import plugin="org.zikula.modulestudio.generator" version="1.3.0" match="equivalent"/>
-      <import plugin="de.guite.modulestudio.ui.preferences" version="1.3.0" match="equivalent"/>
-      <import plugin="de.guite.modulestudio.mostdsl.ide" version="1.3.0" match="equivalent"/>
+      <import plugin="de.guite.modulestudio.branding" version="1.3.1" match="equivalent"/>
+      <import plugin="de.guite.modulestudio.help" version="1.3.1" match="equivalent"/>
+      <import plugin="de.guite.modulestudio.mostdsl" version="1.3.1" match="equivalent"/>
+      <import plugin="de.guite.modulestudio.mostdsl.edit" version="1.3.1" match="equivalent"/>
+      <import plugin="de.guite.modulestudio.mostdsl.ui" version="1.3.1" match="equivalent"/>
+      <import plugin="de.guite.modulestudio.sirius.design" version="1.3.1" match="equivalent"/>
+      <import plugin="de.guite.modulestudio.ui" version="1.3.1" match="equivalent"/>
+      <import plugin="de.guite.modulestudio.update" version="1.3.1" match="equivalent"/>
+      <import plugin="org.zikula.modulestudio.generator" version="1.3.1" match="equivalent"/>
+      <import plugin="de.guite.modulestudio.ui.preferences" version="1.3.1" match="equivalent"/>
+      <import plugin="de.guite.modulestudio.mostdsl.ide" version="1.3.1" match="equivalent"/>
    </requires>
 
    <plugin
