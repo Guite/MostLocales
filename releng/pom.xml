@@ -3,13 +3,13 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>de.guite.modulestudio.locales</groupId>
     <artifactId>de.guite.modulestudio.locales.releng</artifactId>
-    <version>1.3.1-SNAPSHOT</version>
+    <version>1.3.2-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <parent>
         <groupId>de.guite.modulestudio.locales</groupId>
         <artifactId>de.guite.modulestudio.locales.root</artifactId>
-        <version>1.3.1-SNAPSHOT</version>
+        <version>1.3.2-SNAPSHOT</version>
     </parent>
 
     <modules>
