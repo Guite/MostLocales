@@ -48,5 +48,5 @@ jobs:
         FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
         FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
         LOCAL_DIR: deploy/repo
-        REMOTE_DIR: components/help
+        REMOTE_DIR: components/locales
         ARGS: --delete --continue --ignore-time
