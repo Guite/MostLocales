@@ -50,7 +50,7 @@ jobs:
       run: ./sources/MostLocales/.github/scripts/buildTranslationPack.sh
 
     # see https://github.com/SamKirkland/FTP-Deploy-Action
-    - name: Deploy repository
+    - name: Deploy archive
       uses: SamKirkland/FTP-Deploy-Action@master
       env:
         FTP_SERVER: ${{ secrets.FTP_SERVER }}
