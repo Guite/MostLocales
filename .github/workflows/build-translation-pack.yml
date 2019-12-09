@@ -57,5 +57,5 @@ jobs:
         FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
         FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
         LOCAL_DIR: MostTranslationPack
-        REMOTE_DIR: translationPackTemplate
+        REMOTE_DIR: translation-template
         ARGS: --delete --continue --ignore-time
