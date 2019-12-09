@@ -56,6 +56,6 @@ jobs:
         FTP_SERVER: ${{ secrets.FTP_SERVER }}
         FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
         FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
-        LOCAL_DIR: output
+        LOCAL_DIR: MostTranslationPack
         REMOTE_DIR: products
         ARGS: --delete --continue --ignore-time
