@@ -1,0 +1,61 @@
+name: Build translation pack
+# This workflow is triggered by external dispatching.
+on:
+  repository_dispatch:
+    types: [translation-pack]
+jobs:
+  build:
+    # This job runs on Linux
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout sources from Locales repository
+      uses: actions/checkout@v2-beta
+      with:
+        path: sources/MostLocales
+
+    - name: Checkout sources from DSL repository
+      uses: actions/checkout@v2-beta
+      with:
+        repository: Guite/MostTextual
+        token: ${{ secrets.ACCESS_MOST_PRODUCT }}
+        path: sources/MostTextual
+
+    - name: Checkout sources from Generator repository
+      uses: actions/checkout@v2-beta
+      with:
+        repository: Guite/MostGenerator
+        path: sources/MostGenerator
+
+    - name: Checkout sources from UI repository
+      uses: actions/checkout@v2-beta
+      with:
+        repository: Guite/MostUi
+        token: ${{ secrets.ACCESS_MOST_PRODUCT }}
+        path: sources/MostUi
+
+    - name: Checkout sources from Help repository
+      uses: actions/checkout@v2-beta
+      with:
+        repository: Guite/MostHelp
+        path: sources/MostHelp
+
+    - name: Checkout sources from product repository
+      uses: actions/checkout@v2-beta
+      with:
+        repository: Guite/MostProduct
+        token: ${{ secrets.ACCESS_MOST_PRODUCT }}
+        path: sources/MostProduct
+
+    - name: Build
+      run: ./sources/MostLocales/.github/scripts/buildTranslationPack.sh
+
+    # see https://github.com/SamKirkland/FTP-Deploy-Action
+    - name: Deploy repository
+      uses: SamKirkland/FTP-Deploy-Action@master
+      env:
+        FTP_SERVER: ${{ secrets.FTP_SERVER }}
+        FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+        FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+        LOCAL_DIR: output
+        REMOTE_DIR: products
+        ARGS: --delete --continue --ignore-time
