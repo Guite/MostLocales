@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Starting translation pack job"
-INPUTPATH="${GITHUB_WORKSPACE}/components/"
+INPUTPATH="${GITHUB_WORKSPACE}/sources/"
 BASEFOLDER="MostTranslationPack"
 OUTPUT_FOLDER="${BASEFOLDER}/output"
 OUTPUT_FEATURES="${OUTPUT_FOLDER}/features.properties"
