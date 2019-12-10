@@ -1,11 +1,9 @@
 name: Build translation pack
-# This workflow is triggered by external dispatching.
 on:
   repository_dispatch:
     types: [translation-pack]
 jobs:
   build:
-    # This job runs on Linux
     runs-on: ubuntu-latest
     steps:
     - name: Checkout sources from Locales repository
