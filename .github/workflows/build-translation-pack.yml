@@ -49,8 +49,14 @@ jobs:
 
     # see https://github.com/SamKirkland/FTP-Deploy-Action
     - name: Deploy archive
-      uses: SamKirkland/FTP-Deploy-Action@master
-      with:
+      #uses: SamKirkland/FTP-Deploy-Action@master
+      #with:
+        #ftp-server: ftp://${{ secrets.FTP_SERVER }}/translation-template/
+        #ftp-username: ${{ secrets.FTP_USERNAME }}
+        #ftp-password: ${{ secrets.FTP_PASSWORD }}
+        #local-dir: MostTranslationPack
+      uses: SamKirkland/FTP-Deploy-Action@v2
+      env:
         ftp-server: ftp://${{ secrets.FTP_SERVER }}/translation-template/
         ftp-username: ${{ secrets.FTP_USERNAME }}
         ftp-password: ${{ secrets.FTP_PASSWORD }}
