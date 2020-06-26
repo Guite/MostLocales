@@ -57,7 +57,9 @@ jobs:
         #local-dir: MostTranslationPack
       uses: SamKirkland/FTP-Deploy-Action@2.0.0
       env:
-        ftp-server: ftp://${{ secrets.FTP_SERVER }}/translation-template/
-        ftp-username: ${{ secrets.FTP_USERNAME }}
-        ftp-password: ${{ secrets.FTP_PASSWORD }}
-        local-dir: MostTranslationPack
+        FTP_SERVER: ${{ secrets.FTP_SERVER }}
+        FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+        FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+        LOCAL_DIR: MostTranslationPack
+        REMOTE_DIR: translation-template
+        ARGS: --delete --continue --ignore-time
