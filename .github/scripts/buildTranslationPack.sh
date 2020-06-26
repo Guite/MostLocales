@@ -21,7 +21,7 @@ done
 echo "Feature properties collected and written"
 
 echo "Starting with processing plugin bundles"
-for CURRENTFILE in `find -L $INPUTPATH -type f -iname 'bundle.properties' -not -path "*/com.jre.oracle*/*" -not -path "*/target/*" -not -path "*.nl1.*/*" -not -path "*@script/*"`
+for CURRENTFILE in `find -L $INPUTPATH -type f -iname 'bundle.properties' -not -path "*/target/*" -not -path "*.nl1.*/*" -not -path "*@script/*"`
 do
     echo "Adding $CURRENTFILE"
     echo "\n\n# Properties from $CURRENTFILE\n" >> $OUTPUT_PLUGINS

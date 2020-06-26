@@ -37,7 +37,7 @@ jobs:
         repository: Guite/MostHelp
         path: sources/MostHelp
 
-    - name: Checkout sources from product repository
+    - name: Checkout sources from Product repository
       uses: actions/checkout@v2
       with:
         repository: Guite/MostProduct
